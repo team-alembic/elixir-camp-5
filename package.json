@@ -10,7 +10,6 @@
     "serve": "serve dist -p 3000"
   },
   "dependencies": {
-    "axios": "^0.16.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-hot-loader": "^4.0.0-beta.21",
@@ -19,6 +18,7 @@
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
+    "prettier": "^1.13.7",
     "serve": "^6.1.0"
   }
 }
