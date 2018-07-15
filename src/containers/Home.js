@@ -6,6 +6,7 @@ import IconHeader from "../components/IconHeader"
 import Calendar from "../components/icons/Calendar"
 import UnorderedList from "../components/UnorderedList"
 import BuyTicketsButton from "../components/BuyTicketsButton"
+import Map from "../components/Map"
 import TalkList from "../components/TalkList"
 import Organisers from "../components/Organisers"
 import styled from "styled-components"
@@ -120,6 +121,8 @@ const Home = () => (
         <BuyTicketsButton href="https://google.com">
           Buy Tickets!
         </BuyTicketsButton>
+
+        <Map />
 
         <Header2>Talks &amp; Education</Header2>
 

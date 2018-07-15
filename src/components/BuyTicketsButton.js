@@ -7,6 +7,7 @@ export default styled.a`
   font-size: 22px;
   width: 200px;
   height: 60px;
+  margin-bottom: 40px;
   color: #fff;
   display: flex;
   align-items: center;
