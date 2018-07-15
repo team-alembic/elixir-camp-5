@@ -9,6 +9,7 @@ export default styled.a`
   height: 60px;
   margin-bottom: 40px;
   color: #fff;
+  text-decoration: none;
   display: flex;
   align-items: center;
   justify-content: center;

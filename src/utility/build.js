@@ -23,6 +23,6 @@ export const resetStyles = `
   }
 
   a {
-    text-decoration: none;
+    text-decoration: underline;
   }
 `
