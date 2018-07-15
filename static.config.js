@@ -14,6 +14,10 @@ export default {
         component: "src/containers/Home",
       },
       {
+        path: "/coc",
+        component: "src/containers/CodeOfConduct",
+      },
+      {
         is404: true,
         component: "src/containers/404",
       },

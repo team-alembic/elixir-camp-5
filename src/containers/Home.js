@@ -1,4 +1,4 @@
-import React, { Fragment } from "react"
+import React from "react"
 import Paragraph from "../components/Paragraph"
 import Header1 from "../components/Header1"
 import Header2 from "../components/Header2"
@@ -10,6 +10,15 @@ import Map from "../components/Map"
 import TalkList from "../components/TalkList"
 import Organisers from "../components/Organisers"
 import styled from "styled-components"
+import { Link } from "react-static"
+
+const PageWrapper = styled.div`
+  padding-bottom: 150px;
+`
+
+const PageTitle = Header1.extend`
+  color: #fff;
+`
 
 const WidthWrapper = styled.div`
   max-width: 1080px;
@@ -17,12 +26,14 @@ const WidthWrapper = styled.div`
   padding: 0 20px;
 `
 
+// prettier-ignore
 const HeroWrapper = styled.div`
   height: 360px;
   color: #fff;
   padding: 50px 20px;
   margin-bottom: 50px;
-  background: #7250a1;
+  background: #7250a1 url("https://user-images.githubusercontent.com/4101096/42732208-a32b254a-884f-11e8-9e3a-45120ba00d89.jpg") bottom center no-repeat;
+  background-size: cover;
 `
 
 const LeftColumn = styled.div`
@@ -35,13 +46,15 @@ const RightColumn = styled.div`
   width: 42%;
   max-width: 357px;
   float: right;
+  position: relative;
+  top: -320px;
 `
 
 const Home = () => (
-  <Fragment>
+  <PageWrapper>
     <HeroWrapper>
       <WidthWrapper>
-        <Header1>Elixir Camp 4</Header1>
+        <PageTitle>Elixir Camp 4</PageTitle>
         <IconHeader text="October 26th - 29th, 2018" />
         <IconHeader text="Camp Wombaroo" subText="(near Mittagong, Sydney)" />
       </WidthWrapper>
@@ -77,7 +90,9 @@ const Home = () => (
           </li>
           <li>You're interested in web technologies</li>
           <li>You've got a weekend project you really want to work on</li>
-          <li>You'll abide by our code of conduct</li>
+          <li>
+            You'll abide by our <Link to="/coc">code of conduct</Link>
+          </li>
         </UnorderedList>
 
         <Header2>Food and Beverages</Header2>
@@ -155,19 +170,19 @@ const Home = () => (
           ]}
         />
 
+        <Header2>Organisers</Header2>
+        <Organisers />
+
         <Header2>Sponsors</Header2>
         <p>
           Interested in sponsoring?<br />
           <a href="mailto:james@alembic.com.au">Email james@alembic.com.au</a>
         </p>
-
-        <Header2>Organisers</Header2>
-        <Organisers />
       </RightColumn>
 
       <br clear="all" />
     </WidthWrapper>
-  </Fragment>
+  </PageWrapper>
 )
 
 export default Home
