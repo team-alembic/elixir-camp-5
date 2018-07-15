@@ -6,5 +6,5 @@ export default styled.h2`
   font-weight: 700;
   font-size: 20px;
   color: #474747;
-  margin-top: 35px;
+  margin: 35px 0;
 `

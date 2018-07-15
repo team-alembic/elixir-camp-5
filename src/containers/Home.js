@@ -6,6 +6,8 @@ import IconHeader from "../components/IconHeader"
 import Calendar from "../components/icons/Calendar"
 import UnorderedList from "../components/UnorderedList"
 import BuyTicketsButton from "../components/BuyTicketsButton"
+import TalkList from "../components/TalkList"
+import Organisers from "../components/Organisers"
 import styled from "styled-components"
 
 const WidthWrapper = styled.div`
@@ -24,13 +26,14 @@ const HeroWrapper = styled.div`
 
 const LeftColumn = styled.div`
   width: 58%;
+  float: left;
   padding-right: 50px;
 `
 
 const RightColumn = styled.div`
   width: 42%;
+  max-width: 357px;
   float: right;
-  padding-top: 80px;
 `
 
 const Home = () => (
@@ -82,10 +85,12 @@ const Home = () => (
           ElixirCamp will supply meals and snacks during the weekend, as well as
           tea, coffee and soft drinks.
         </Paragraph>
+
         <Paragraph>
           Alcoholic beverages are not included in the ticket price, please
           purchase any beverages you'd like to bring prior to boarding the bus.
         </Paragraph>
+
         <Paragraph>
           Please bring along any extra snacks you would like.
         </Paragraph>
@@ -112,8 +117,52 @@ const Home = () => (
       </LeftColumn>
 
       <RightColumn>
-        <BuyTicketsButton href="https://google.com" />
+        <BuyTicketsButton href="https://google.com">
+          Buy Tickets!
+        </BuyTicketsButton>
+
+        <Header2>Talks &amp; Education</Header2>
+
+        <TalkList
+          talks={[
+            {
+              avatarImageUrl:
+                "https://avatars1.githubusercontent.com/u/9307?s=460&v=4",
+              authorFullName: "Josh Price",
+              title: "Why Elixir?",
+            },
+            {
+              avatarImageUrl:
+                "https://avatars1.githubusercontent.com/u/9307?s=460&v=4",
+              authorFullName: "Josh Price",
+              title: "Why Elixir?",
+            },
+            {
+              avatarImageUrl:
+                "https://avatars1.githubusercontent.com/u/9307?s=460&v=4",
+              authorFullName: "Josh Price",
+              title: "Why Elixir?",
+            },
+            {
+              avatarImageUrl:
+                "https://avatars1.githubusercontent.com/u/9307?s=460&v=4",
+              authorFullName: "Josh Price",
+              title: "Why Elixir?",
+            },
+          ]}
+        />
+
+        <Header2>Sponsors</Header2>
+        <p>
+          Interested in sponsoring?<br />
+          <a href="mailto:james@alembic.com.au">Email james@alembic.com.au</a>
+        </p>
+
+        <Header2>Organisers</Header2>
+        <Organisers />
       </RightColumn>
+
+      <br clear="all" />
     </WidthWrapper>
   </Fragment>
 )

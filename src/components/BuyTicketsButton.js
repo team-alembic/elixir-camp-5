@@ -11,4 +11,6 @@ export default styled.a`
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 5px;
+  background: #8765b5;
 `
