@@ -1,4 +1,5 @@
 import React from "react"
+import { resetStyles } from "./src/utility/build"
 
 export default {
   getSiteData: () => ({
@@ -34,7 +35,9 @@ export default {
           rel="stylesheet"
         />
 
+        <style dangerouslySetInnerHTML={{ __html: resetStyles }} />
         {renderMeta.styleTags}
+
         <title>{siteData.title}</title>
       </Head>
 
