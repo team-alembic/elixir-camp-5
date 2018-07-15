@@ -1,3 +1,5 @@
+import React from "react"
+
 export default {
   getSiteData: () => ({
     title: "Elixir Camp 2018",
