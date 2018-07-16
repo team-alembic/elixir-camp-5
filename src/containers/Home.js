@@ -42,7 +42,7 @@ const HeroWrapper = styled.div`
   color: #fff;
   padding: 50px 20px;
   margin-bottom: 50px;
-  background: #7250a1 url("https://user-images.githubusercontent.com/4101096/42732208-a32b254a-884f-11e8-9e3a-45120ba00d89.jpg") bottom center no-repeat;
+  background: #7250a1 url("https://user-images.githubusercontent.com/4101096/42745866-8b03fa60-8907-11e8-806c-6621ea61cfe0.jpg") center no-repeat;
   background-size: cover;
 
   @media only screen and (max-width: 640px) {
