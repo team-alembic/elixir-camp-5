@@ -64,17 +64,17 @@ const TravelInfoModel = ({ className, onCloseClicked }) => (
         <MilestoneHeader>Journey to Elixir Camp</MilestoneHeader>
         <MilestoneText>
           Attendees should catch a train from Sydney Central to Mittagong.
-          A shuttle bus will depart Mittangong at 3:30opm sharp to take everyone the rest
+          A shuttle bus will depart Mittangong at 3:30pm sharp to take everyone the rest
           of the way to Camp Wombaroo.
           <p>On the way to Camp Wombaroo there will be a stop to optionally
              purchase alcohol and snacks.</p>
           <p>Note: if you're planning on flying into Sydney, catch a train to Sydney Central
-             and make sure you allow ample time for your journey to Mittagong.</p>
+             and make sure you allow ample time for your journey by train to Mittagong.</p>
         </MilestoneText>
       </Milestone>
 
       <Milestone>
-        <Bus />
+        <Train />
         <MilestoneHeader>Journey from Elixir Camp</MilestoneHeader>
         <MilestoneText>
           The shuttle bus will depart Camp Wombaroo no later than 10am to drop
