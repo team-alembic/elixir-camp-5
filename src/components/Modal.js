@@ -29,7 +29,6 @@ const CloseButton = styled.button`
   font-size: 16px;
   border: none;
   color: #fff;
-  display: inline-block;
   margin: 0 0 25px auto;
   background: none;
   cursor: pointer;

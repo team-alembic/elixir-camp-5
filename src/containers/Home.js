@@ -7,6 +7,7 @@ import IconHeader from "../components/IconHeader"
 import Calendar from "../components/icons/Calendar"
 import Marker from "../components/icons/Marker"
 import Ticket from "../components/icons/Ticket"
+import SmallTrain from "../components/icons/SmallTrain"
 import UnorderedList from "../components/UnorderedList"
 import PrettyUnorderedList from "../components/PrettyUnorderedList"
 import BuyTicketsButton from "../components/BuyTicketsButton"
@@ -42,7 +43,12 @@ const HeroWrapper = styled.div`
 
 const ShowTravelInfoButton = styled.button`
   font-size: 18px;
+  font-weight: 700;
+  text-decoration: underline;
   display: flex;
+  justify-content: space-between;
+  width: 220px;
+  margin-top: 30px;
   align-items: center;
   cursor: pointer;
   color: #fff;
@@ -102,6 +108,7 @@ class Home extends PureComponent {
 
             <ShowTravelInfoButton
               onClick={() => this.setState({ showTravelInformation: true })}>
+              <SmallTrain />
               Show transport info!
             </ShowTravelInfoButton>
           </WidthWrapper>
