@@ -7,6 +7,7 @@ import Calendar from "../components/icons/Calendar"
 import Marker from "../components/icons/Marker"
 import Ticket from "../components/icons/Ticket"
 import UnorderedList from "../components/UnorderedList"
+import PrettyUnorderedList from "../components/PrettyUnorderedList"
 import BuyTicketsButton from "../components/BuyTicketsButton"
 import Map from "../components/Map"
 import TalkList from "../components/TalkList"
@@ -83,7 +84,7 @@ const Home = () => (
 
         <Header2>You should come to Elixir Camp if:</Header2>
 
-        <UnorderedList>
+        <PrettyUnorderedList>
           <li>You like Elixir/Erlang</li>
           <li>
             You have limited knowledge of Elixir, but you want to change that
@@ -101,7 +102,7 @@ const Home = () => (
           <li>
             You'll abide by our <Link to="/coc">code of conduct</Link>
           </li>
-        </UnorderedList>
+        </PrettyUnorderedList>
 
         <Header2>Food and Beverages</Header2>
 
