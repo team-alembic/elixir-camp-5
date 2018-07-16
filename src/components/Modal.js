@@ -11,6 +11,11 @@ const Overlay = styled.div`
   padding: 40px;
   overflow: hidden;
   background: rgba(0, 0, 0, 0.8);
+
+  @media only screen and (max-width: 640px) {
+    padding-top: 20px;
+    top: 0;
+  }
 `
 
 const Wrapper = styled.div`
@@ -18,6 +23,10 @@ const Wrapper = styled.div`
   margin: 0 auto;
   position: relative;
   top: 10vh;
+
+  @media only screen and (max-width: 640px) {
+    top: 0;
+  }
 `
 
 const Content = styled.div`

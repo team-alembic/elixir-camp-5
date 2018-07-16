@@ -14,6 +14,7 @@ import BuyTicketsButton from "../components/BuyTicketsButton"
 import Map from "../components/Map"
 import TalkList from "../components/TalkList"
 import Organisers from "../components/Organisers"
+import MobileOnly from "../components/MobileOnly"
 import styled from "styled-components"
 import { Link } from "react-static"
 
@@ -23,6 +24,10 @@ const PageWrapper = styled.div`
 
 const PageTitle = Header1.extend`
   color: #fff;
+
+  @media only screen and (max-width: 641px) {
+    font-size: 32px;
+  }
 `
 
 const WidthWrapper = styled.div`
@@ -39,6 +44,11 @@ const HeroWrapper = styled.div`
   margin-bottom: 50px;
   background: #7250a1 url("https://user-images.githubusercontent.com/4101096/42732208-a32b254a-884f-11e8-9e3a-45120ba00d89.jpg") bottom center no-repeat;
   background-size: cover;
+
+  @media only screen and (max-width: 640px) {
+    height: auto;
+    padding-bottom: 20px;
+  }
 `
 
 const ShowTravelInfoButton = styled.button`
@@ -55,12 +65,22 @@ const ShowTravelInfoButton = styled.button`
   outline: 0;
   border: 0;
   background: 0;
+
+  @media only screen and (max-width: 640px) {
+    margin-bottom: 30px;
+  }
 `
 
 const LeftColumn = styled.div`
   width: 58%;
   float: left;
   padding-right: 50px;
+
+  @media only screen and (max-width: 640px) {
+    float: none;
+    width: 100%;
+    padding-right: 0;
+  }
 `
 
 const RightColumn = styled.div`
@@ -69,6 +89,13 @@ const RightColumn = styled.div`
   float: right;
   position: relative;
   top: -320px;
+
+  @media only screen and (max-width: 640px) {
+    float: none;
+    width: 100%;
+    padding-top: 40px;
+    top: 0;
+  }
 `
 
 class Home extends PureComponent {
@@ -111,6 +138,13 @@ class Home extends PureComponent {
               <SmallTrain />
               Show transport info!
             </ShowTravelInfoButton>
+
+            <MobileOnly>
+              <BuyTicketsButton href="https://google.com">
+                <Ticket />
+                Buy Tickets!
+              </BuyTicketsButton>
+            </MobileOnly>
           </WidthWrapper>
         </HeroWrapper>
 

@@ -19,9 +19,17 @@ const Milestones = styled.ul`
   justify-content: center;
   padding: 65px 50px 30px;
   list-style: none;
+
+  @media only screen and (max-width: 640px) {
+    flex-direction: column;
+  }
 `
 
 const Milestone = styled.li`
+  @media only screen and (max-width: 640px) {
+    margin-bottom: 35px;
+  }
+
   &:not(:last-child) {
     margin-right: 45px;
   }
