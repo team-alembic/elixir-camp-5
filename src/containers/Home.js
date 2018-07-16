@@ -15,6 +15,7 @@ import Map from "../components/Map"
 import TalkList from "../components/TalkList"
 import Organisers from "../components/Organisers"
 import Sponsors from "../components/Sponsors"
+import PrimaryFooter from "../components/PrimaryFooter"
 import MobileOnly from "../components/MobileOnly"
 import styled from "styled-components"
 import { Link } from "react-static"
@@ -250,7 +251,6 @@ class Home extends PureComponent {
                   authorFullName: "Luke Rollans",
                   title: "Turbocharge Elixir with Rust 💨",
                 },
-
               ]}
             />
 
@@ -259,6 +259,8 @@ class Home extends PureComponent {
           </RightColumn>
 
           <br clear="all" />
+
+          <PrimaryFooter />
         </WidthWrapper>
       </PageWrapper>
     )
