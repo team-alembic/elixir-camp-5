@@ -140,10 +140,7 @@ class Home extends PureComponent {
             </ShowTravelInfoButton>
 
             <MobileOnly>
-              <BuyTicketsButton href="https://google.com">
-                <Ticket />
-                Buy Tickets!
-              </BuyTicketsButton>
+              <BuyTicketsButton />
             </MobileOnly>
           </WidthWrapper>
         </HeroWrapper>
@@ -223,10 +220,7 @@ class Home extends PureComponent {
           </LeftColumn>
 
           <RightColumn>
-            <BuyTicketsButton href="https://google.com">
-              <Ticket />
-              Buy Tickets!
-            </BuyTicketsButton>
+            <BuyTicketsButton />
 
             <Map />
 
