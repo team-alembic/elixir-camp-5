@@ -9,10 +9,22 @@ const PrimaryFooter = ({ className }) => (
   <footer className={className}>
     <CreditList>
       <li>
+        Content by Martin Stannard, Garret Heinlen, Jo Cranford &amp; James Sadler
+      </li>
+
+      <li>
+        Code of conduct by Cath Jones, Suzie Price, Martin Stannard &amp; James Sadler
+      </li>
+
+      <li>
+        Design by Luke Rollans
+      </li>
+
+      <li>
         <a
           href="https://thenounproject.com/search/?q=bus&i=110224"
           target="_blank">
-          Bus by By Hayden Kerrisk, NZ on The Noun Project
+          Bus icons by Hayden Kerrisk, NZ on The Noun Project
         </a>
       </li>
 
@@ -20,7 +32,7 @@ const PrimaryFooter = ({ className }) => (
         <a
           href="https://thenounproject.com/search/?q=marker&i=1629327"
           target="_blank">
-          Marker by By Dinosoft Labs, PK on The Noun Project
+          Marker icon by Dinosoft Labs, PK on The Noun Project
         </a>
       </li>
 
@@ -28,7 +40,7 @@ const PrimaryFooter = ({ className }) => (
         <a
           href="https://thenounproject.com/search/?q=ticket&i=1614521"
           target="_blank">
-          Ticket by By Three Six Five on The Noun Project
+          Ticket icon by Three Six Five on The Noun Project
         </a>
       </li>
 
@@ -36,7 +48,7 @@ const PrimaryFooter = ({ className }) => (
         <a
           href="https://thenounproject.com/search/?q=calendar&i=1834413"
           target="_blank">
-          Calendar by By Tom Ingebretsen, US on The Noun Project
+          Calendar icon by Tom Ingebretsen, US on The Noun Project
         </a>
       </li>
 
@@ -44,7 +56,7 @@ const PrimaryFooter = ({ className }) => (
         <a
           href="https://thenounproject.com/search/?q=plane&i=684674"
           target="_blank">
-          Plane By By David, US on The Noun Project
+          Plane icon by David, US on The Noun Project
         </a>
       </li>
 
@@ -52,7 +64,7 @@ const PrimaryFooter = ({ className }) => (
         <a
           href="https://thenounproject.com/search/?q=checkmark&i=1379283"
           target="_blank">
-          Checkmark by Logan on The Noun Project
+          Checkmark icon by Logan on The Noun Project
         </a>
       </li>
     </CreditList>
