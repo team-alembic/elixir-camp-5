@@ -45,8 +45,8 @@ const ExtraContent = styled.p`
   border-top: solid 1px #d8d8d8;
 `
 
-const TravelInfoModel = ({ className }) => (
-  <Modal>
+const TravelInfoModel = ({ className, onCloseClicked }) => (
+  <Modal onCloseClicked={onCloseClicked}>
     <Header>Travel Information</Header>
 
     <Milestones>

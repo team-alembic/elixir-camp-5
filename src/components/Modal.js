@@ -13,18 +13,35 @@ const Overlay = styled.div`
   background: rgba(0, 0, 0, 0.8);
 `
 
-const Content = styled.div`
+const Wrapper = styled.div`
   max-width: 900px;
   margin: 0 auto;
   position: relative;
   top: 10vh;
+`
+
+const Content = styled.div`
   border-radius: 10px;
   background: #fff;
 `
 
-const Modal = ({ children }) => (
+const CloseButton = styled.button`
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  margin: 0 0 25px auto;
+  background: none;
+  cursor: pointer;
+  outline: 0;
+`
+
+const Modal = ({ children, onCloseClicked }) => (
   <Overlay>
-    <Content>{children}</Content>
+    <Wrapper>
+      <CloseButton onClick={onCloseClicked}>Close</CloseButton>
+      <Content>{children}</Content>
+    </Wrapper>
   </Overlay>
 )
 

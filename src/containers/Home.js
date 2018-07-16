@@ -1,4 +1,4 @@
-import React from "react"
+import React, { PureComponent } from "react"
 import Paragraph from "../components/Paragraph"
 import Header1 from "../components/Header1"
 import Header2 from "../components/Header2"
@@ -40,6 +40,17 @@ const HeroWrapper = styled.div`
   background-size: cover;
 `
 
+const ShowTravelInfoButton = styled.button`
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #fff;
+  outline: 0;
+  border: 0;
+  background: 0;
+`
+
 const LeftColumn = styled.div`
   width: 58%;
   float: left;
@@ -54,148 +65,178 @@ const RightColumn = styled.div`
   top: -320px;
 `
 
-const Home = () => (
-  <PageWrapper>
-    <TravelInfoModal />
+class Home extends PureComponent {
+  constructor(props) {
+    super(props)
 
-    <HeroWrapper>
-      <WidthWrapper>
-        <PageTitle>Elixir Camp 4</PageTitle>
+    this.state = {
+      showTravelInformation: false,
+    }
+  }
 
-        <IconHeader IconComponent={Calendar} text="October 26th - 29th, 2018" />
+  render() {
+    return (
+      <PageWrapper>
+        {this.state.showTravelInformation ? (
+          <TravelInfoModal
+            onCloseClicked={() =>
+              this.setState({ showTravelInformation: false })
+            }
+          />
+        ) : null}
 
-        <IconHeader
-          IconComponent={Marker}
-          text="Camp Wombaroo"
-          subText="(near Mittagong, Sydney)"
-        />
-      </WidthWrapper>
-    </HeroWrapper>
+        <HeroWrapper>
+          <WidthWrapper>
+            <PageTitle>Elixir Camp 4</PageTitle>
 
-    <WidthWrapper>
-      <LeftColumn>
-        <Paragraph>
-          ElixirCamp is a place for people interested in Elixir, Erlang and
-          related technologies to gather, network, share ideas and generally
-          have a great time.
-        </Paragraph>
+            <IconHeader
+              IconComponent={Calendar}
+              text="October 26th - 29th, 2018"
+            />
 
-        <Paragraph>
-          While there's a general focus on Elixir developers, techy people of
-          any background are encouraged to attend.
-        </Paragraph>
+            <IconHeader
+              IconComponent={Marker}
+              text="Camp Wombaroo"
+              subText="(near Mittagong, Sydney)"
+            />
 
-        <Header2>You should come to Elixir Camp if:</Header2>
+            <ShowTravelInfoButton
+              onClick={() => this.setState({ showTravelInformation: true })}>
+              Show transport info!
+            </ShowTravelInfoButton>
+          </WidthWrapper>
+        </HeroWrapper>
 
-        <PrettyUnorderedList>
-          <li>You like Elixir/Erlang</li>
-          <li>
-            You have limited knowledge of Elixir, but you want to change that
-          </li>
-          <li>
-            You're into building high speed, fault tolerant, distributed
-            applications
-          </li>
-          <li>
-            You've got specialist knowledge and you'd like to share with iother
-            enthusiasts
-          </li>
-          <li>You're interested in web technologies</li>
-          <li>You've got a weekend project you really want to work on</li>
-          <li>
-            You'll abide by our <Link to="/coc">code of conduct</Link>
-          </li>
-        </PrettyUnorderedList>
+        <WidthWrapper>
+          <LeftColumn>
+            <Paragraph>
+              ElixirCamp is a place for people interested in Elixir, Erlang and
+              related technologies to gather, network, share ideas and generally
+              have a great time.
+            </Paragraph>
 
-        <Header2>Food and Beverages</Header2>
+            <Paragraph>
+              While there's a general focus on Elixir developers, techy people
+              of any background are encouraged to attend.
+            </Paragraph>
 
-        <Paragraph>
-          ElixirCamp will supply meals and snacks during the weekend, as well as
-          tea, coffee and soft drinks.
-        </Paragraph>
+            <Header2>You should come to Elixir Camp if:</Header2>
 
-        <Paragraph>
-          Alcoholic beverages are not included in the ticket price, please
-          purchase any beverages you'd like to bring prior to boarding the bus.
-        </Paragraph>
+            <PrettyUnorderedList>
+              <li>You like Elixir/Erlang</li>
+              <li>
+                You have limited knowledge of Elixir, but you want to change
+                that
+              </li>
+              <li>
+                You're into building high speed, fault tolerant, distributed
+                applications
+              </li>
+              <li>
+                You've got specialist knowledge and you'd like to share with
+                iother enthusiasts
+              </li>
+              <li>You're interested in web technologies</li>
+              <li>You've got a weekend project you really want to work on</li>
+              <li>
+                You'll abide by our <Link to="/coc">code of conduct</Link>
+              </li>
+            </PrettyUnorderedList>
 
-        <Paragraph>
-          Please bring along any extra snacks you would like.
-        </Paragraph>
+            <Header2>Food and Beverages</Header2>
 
-        <Header2>Essentials to Pack</Header2>
+            <Paragraph>
+              ElixirCamp will supply meals and snacks during the weekend, as
+              well as tea, coffee and soft drinks.
+            </Paragraph>
 
-        <UnorderedList>
-          <li>A sleeping bag or the like</li>
-          <li>A pillow case</li>
-          <li>A towel (or two)</li>
-          <li>Clothes for mild to cool weather</li>
-          <li>Computer gear and chargers</li>
-          <li>Toiletries for the weekend</li>
-          <li>
-            Download any packages, libraries and software you might want to use
-            on a camp project. It's best to be prepared
-          </li>
-          <li>Any snacks you might like to bring along</li>
-          <li>
-            Games to play with others. Werewolf, Avalon, Cards Against Humanity,
-            Flux and Poker have all featured at previous camps
-          </li>
-        </UnorderedList>
-      </LeftColumn>
+            <Paragraph>
+              Alcoholic beverages are not included in the ticket price, please
+              purchase any beverages you'd like to bring prior to boarding the
+              bus.
+            </Paragraph>
 
-      <RightColumn>
-        <BuyTicketsButton href="https://google.com">
-          <Ticket />
-          Buy Tickets!
-        </BuyTicketsButton>
+            <Paragraph>
+              Please bring along any extra snacks you would like.
+            </Paragraph>
 
-        <Map />
+            <Header2>Essentials to Pack</Header2>
 
-        <Header2>Talks &amp; Education</Header2>
+            <UnorderedList>
+              <li>A sleeping bag or the like</li>
+              <li>A pillow case</li>
+              <li>A towel (or two)</li>
+              <li>Clothes for mild to cool weather</li>
+              <li>Computer gear and chargers</li>
+              <li>Toiletries for the weekend</li>
+              <li>
+                Download any packages, libraries and software you might want to
+                use on a camp project. It's best to be prepared
+              </li>
+              <li>Any snacks you might like to bring along</li>
+              <li>
+                Games to play with others. Werewolf, Avalon, Cards Against
+                Humanity, Flux and Poker have all featured at previous camps
+              </li>
+            </UnorderedList>
+          </LeftColumn>
 
-        <TalkList
-          talks={[
-            {
-              avatarImageUrl:
-                "https://avatars1.githubusercontent.com/u/9307?s=460&v=4",
-              authorFullName: "Josh Price",
-              title: "Why Elixir?",
-            },
-            {
-              avatarImageUrl:
-                "https://avatars1.githubusercontent.com/u/9307?s=460&v=4",
-              authorFullName: "Josh Price",
-              title: "Why Elixir?",
-            },
-            {
-              avatarImageUrl:
-                "https://avatars1.githubusercontent.com/u/9307?s=460&v=4",
-              authorFullName: "Josh Price",
-              title: "Why Elixir?",
-            },
-            {
-              avatarImageUrl:
-                "https://avatars1.githubusercontent.com/u/9307?s=460&v=4",
-              authorFullName: "Josh Price",
-              title: "Why Elixir?",
-            },
-          ]}
-        />
+          <RightColumn>
+            <BuyTicketsButton href="https://google.com">
+              <Ticket />
+              Buy Tickets!
+            </BuyTicketsButton>
 
-        <Header2>Organisers</Header2>
-        <Organisers />
+            <Map />
 
-        <Header2>Sponsors</Header2>
-        <p>
-          Interested in sponsoring?<br />
-          <a href="mailto:james@alembic.com.au">Email james@alembic.com.au</a>
-        </p>
-      </RightColumn>
+            <Header2>Talks &amp; Education</Header2>
 
-      <br clear="all" />
-    </WidthWrapper>
-  </PageWrapper>
-)
+            <TalkList
+              talks={[
+                {
+                  avatarImageUrl:
+                    "https://avatars1.githubusercontent.com/u/9307?s=460&v=4",
+                  authorFullName: "Josh Price",
+                  title: "Why Elixir?",
+                },
+                {
+                  avatarImageUrl:
+                    "https://avatars1.githubusercontent.com/u/9307?s=460&v=4",
+                  authorFullName: "Josh Price",
+                  title: "Why Elixir?",
+                },
+                {
+                  avatarImageUrl:
+                    "https://avatars1.githubusercontent.com/u/9307?s=460&v=4",
+                  authorFullName: "Josh Price",
+                  title: "Why Elixir?",
+                },
+                {
+                  avatarImageUrl:
+                    "https://avatars1.githubusercontent.com/u/9307?s=460&v=4",
+                  authorFullName: "Josh Price",
+                  title: "Why Elixir?",
+                },
+              ]}
+            />
+
+            <Header2>Organisers</Header2>
+            <Organisers />
+
+            <Header2>Sponsors</Header2>
+            <p>
+              Interested in sponsoring?<br />
+              <a href="mailto:james@alembic.com.au">
+                Email james@alembic.com.au
+              </a>
+            </p>
+          </RightColumn>
+
+          <br clear="all" />
+        </WidthWrapper>
+      </PageWrapper>
+    )
+  }
+}
 
 export default Home
