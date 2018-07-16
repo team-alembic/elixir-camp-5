@@ -60,14 +60,16 @@ const TravelInfoModel = ({ className, onCloseClicked }) => (
 
     <Milestones>
       <Milestone>
-        <Bus />
+        <Train />
         <MilestoneHeader>Journey to Elixir Camp</MilestoneHeader>
         <MilestoneText>
-          The bus will depart Sydney Central at 2:00pm sharp and will pick up
-          at the Sydney Kingsford Smith airport (domestic terminal) at approximately
-          2:30pm.
-
-          <p>On the way to Camp Wombaroo there will be a stop to optionally purchase alcohol and snacks.</p>
+          Attendees should catch a train from Sydney Central to Mittagong.
+          A shuttle bus will depart Mittangong at 3:30opm sharp to take everyone the rest
+          of the way to Camp Wombaroo.
+          <p>On the way to Camp Wombaroo there will be a stop to optionally
+             purchase alcohol and snacks.</p>
+          <p>Note: if you're planning on flying into Sydney, catch a train to Sydney Central
+             and make sure you allow ample time for your journey to Mittagong.</p>
         </MilestoneText>
       </Milestone>
 
@@ -76,11 +78,9 @@ const TravelInfoModel = ({ className, onCloseClicked }) => (
         <MilestoneHeader>Journey from Elixir Camp</MilestoneHeader>
         <MilestoneText>
           The shuttle bus will depart Camp Wombaroo no later than 10am to drop
-          off at Sydney Kingsford Smith airport (domestic) by approximately 12:30pm. The
-          bus will continue to Sydney Central station for a drop off approximately
-          1:00pm.
+          off at Mittagong station where campers should make their way back to Sydney Central.
   
-         <p>Please allow ample time for delays, epsecially if you're flying</p>.
+         <p>Please allow ample time for delays, epsecially if you're flying.</p>
         </MilestoneText>
       </Milestone>
     </Milestones>
