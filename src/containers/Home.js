@@ -2,6 +2,7 @@ import React from "react"
 import Paragraph from "../components/Paragraph"
 import Header1 from "../components/Header1"
 import Header2 from "../components/Header2"
+import TravelInfoModal from "../components/TravelInfoModal"
 import IconHeader from "../components/IconHeader"
 import Calendar from "../components/icons/Calendar"
 import Marker from "../components/icons/Marker"
@@ -55,6 +56,8 @@ const RightColumn = styled.div`
 
 const Home = () => (
   <PageWrapper>
+    <TravelInfoModal />
+
     <HeroWrapper>
       <WidthWrapper>
         <PageTitle>Elixir Camp 4</PageTitle>
