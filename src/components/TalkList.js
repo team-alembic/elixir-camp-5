@@ -1,11 +1,13 @@
 import React from "react"
 import PropTypes from "prop-types"
 import TalkListItem from "./TalkListItem"
+import PlaceholderTalkListItem from "./PlaceholderTalkListItem"
 import styled from "styled-components"
 
 const TalkList = ({ className, talks }) => (
   <div className={className}>
     {talks.map((talk, index) => <TalkListItem key={index} talk={talk} />)}
+    <PlaceholderTalkListItem />
   </div>
 )
 
