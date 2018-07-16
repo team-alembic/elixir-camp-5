@@ -1,4 +1,4 @@
-import React, { Fragment } from "react"
+import React from "react"
 import styled from "styled-components"
 
 const Text = styled.h2`
@@ -16,9 +16,16 @@ const SubText = styled.p`
   padding-left: 5px;
 `
 
-const IconHeader = ({ className, text, subText }) => (
+const IconWrapper = styled.div`
+  padding-top: 5px;
+`
+
+const IconHeader = ({ className, IconComponent, text, subText }) => (
   <div className={className}>
-    <div>(icon)</div>
+    <IconWrapper>
+      <IconComponent />
+    </IconWrapper>
+
     <div>
       <Text>{text}</Text>
       <SubText>{subText}</SubText>

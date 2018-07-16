@@ -4,6 +4,8 @@ import Header1 from "../components/Header1"
 import Header2 from "../components/Header2"
 import IconHeader from "../components/IconHeader"
 import Calendar from "../components/icons/Calendar"
+import Marker from "../components/icons/Marker"
+import Ticket from "../components/icons/Ticket"
 import UnorderedList from "../components/UnorderedList"
 import BuyTicketsButton from "../components/BuyTicketsButton"
 import Map from "../components/Map"
@@ -55,8 +57,14 @@ const Home = () => (
     <HeroWrapper>
       <WidthWrapper>
         <PageTitle>Elixir Camp 4</PageTitle>
-        <IconHeader text="October 26th - 29th, 2018" />
-        <IconHeader text="Camp Wombaroo" subText="(near Mittagong, Sydney)" />
+
+        <IconHeader IconComponent={Calendar} text="October 26th - 29th, 2018" />
+
+        <IconHeader
+          IconComponent={Marker}
+          text="Camp Wombaroo"
+          subText="(near Mittagong, Sydney)"
+        />
       </WidthWrapper>
     </HeroWrapper>
 
@@ -134,6 +142,7 @@ const Home = () => (
 
       <RightColumn>
         <BuyTicketsButton href="https://google.com">
+          <Ticket />
           Buy Tickets!
         </BuyTicketsButton>
 
