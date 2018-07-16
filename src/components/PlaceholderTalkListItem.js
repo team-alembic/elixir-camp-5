@@ -24,8 +24,8 @@ const PlaceholderTalkListItem = ({ className }) => (
     <Avatar src={Question} alt="This could be you!" />
 
     <div>
-      <Title>Submit a talk proposal!</Title>
-      <ContactInfo>Contact <a href="mailto:james@alembic.com.au">james@alembic.com.au</a></ContactInfo>
+      <Title>Submit a talk proposal! 🔊</Title>
+      <ContactInfo>Send submissions to <a href="mailto:james@alembic.com.au">james@alembic.com.au</a></ContactInfo>
     </div>
   </div>
 )

@@ -14,6 +14,7 @@ import BuyTicketsButton from "../components/BuyTicketsButton"
 import Map from "../components/Map"
 import TalkList from "../components/TalkList"
 import Organisers from "../components/Organisers"
+import Sponsors from "../components/Sponsors"
 import MobileOnly from "../components/MobileOnly"
 import styled from "styled-components"
 import { Link } from "react-static"
@@ -217,6 +218,9 @@ class Home extends PureComponent {
                 Humanity, Flux and Poker have all featured at previous camps
               </li>
             </UnorderedList>
+
+            <Header2 id="sponsors">Sponsors</Header2>
+            <Sponsors />
           </LeftColumn>
 
           <RightColumn>
@@ -232,19 +236,19 @@ class Home extends PureComponent {
                   avatarImageUrl:
                     "https://avatars1.githubusercontent.com/u/9307?s=460&v=4",
                   authorFullName: "Josh Price",
-                  title: "Why Elixir?",
+                  title: "Why Elixir? 🤯",
                 },
                 {
                   avatarImageUrl:
                     "https://avatars1.githubusercontent.com/u/2769?s=460&v=4",
                   authorFullName: "James Sadler",
-                  title: "All About Umbrella Applications",
+                  title: "All About Umbrella Applications ☂️",
                 },
                 {
                   avatarImageUrl:
                     "https://avatars1.githubusercontent.com/u/4101096?s=460&v=4",
                   authorFullName: "Luke Rollans",
-                  title: "💨 Turbocharge Elixir with Rust",
+                  title: "Turbocharge Elixir with Rust 💨",
                 },
 
               ]}
@@ -252,14 +256,6 @@ class Home extends PureComponent {
 
             <Header2>Organisers</Header2>
             <Organisers />
-
-            <Header2>Sponsors</Header2>
-            <p>
-              Interested in sponsoring?<br />
-              <a href="mailto:james@alembic.com.au">
-                Email james@alembic.com.au
-              </a>
-            </p>
           </RightColumn>
 
           <br clear="all" />
