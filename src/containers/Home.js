@@ -150,7 +150,7 @@ class Home extends PureComponent {
         <WidthWrapper>
           <LeftColumn>
             <Paragraph>
-              ElixirCamp is a place for people interested in Elixir, Erlang and
+              Elixir Camp is a place for people interested in Elixir, Erlang and
               related technologies to gather, network, share ideas and generally
               have a great time.
             </Paragraph>
@@ -179,14 +179,14 @@ class Home extends PureComponent {
               <li>You're interested in web technologies</li>
               <li>You've got a weekend project you really want to work on</li>
               <li>
-                You'll abide by our <Link to="/coc">code of conduct</Link>
+                You'll abide by our&nbsp;<Link to="/coc">code of conduct</Link>
               </li>
             </PrettyUnorderedList>
 
             <Header2>Food and Beverages</Header2>
 
             <Paragraph>
-              ElixirCamp will supply meals and snacks during the weekend, as
+              Elixir Camp will supply meals and snacks during the weekend, as
               well as tea, coffee and soft drinks.
             </Paragraph>
 
