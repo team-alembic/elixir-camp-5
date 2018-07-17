@@ -245,12 +245,6 @@ class Home extends PureComponent {
                   authorFullName: "James Sadler",
                   title: "All About Umbrella Applications ☂️",
                 },
-                {
-                  avatarImageUrl:
-                    "https://avatars1.githubusercontent.com/u/4101096?s=460&v=4",
-                  authorFullName: "Luke Rollans",
-                  title: "Turbocharge Elixir with Rust 💨",
-                },
               ]}
             />
 
