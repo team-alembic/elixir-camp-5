@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 
 const Overlay = styled.div`
-  position: fixed;
+  position: absolute;
   z-index: 999;
   top: 0;
   left: 0;
