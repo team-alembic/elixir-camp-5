@@ -35,6 +35,11 @@ const ButtonSpan = styled.span`
   justify-content: space-between;
   border-radius: 5px;
   background: #8765b5;
+
+  @media only screen and (max-width: 640px) {
+    font-size: 18px;
+    width: 300px;
+  }
 `
 
 export default function() {
