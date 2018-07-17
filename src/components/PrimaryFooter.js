@@ -9,15 +9,13 @@ const PrimaryFooter = ({ className }) => (
   <footer className={className}>
     <CreditList>
       <li>
-        Content by Martin Stannard, Garret Heinlen, Jo Cranford &amp; James Sadler
+        Content by Martin Stannard, Garret Heinlen, Jo Cranford &amp; James
+        Sadler
       </li>
 
       <li>
-        Code of conduct by Cath Jones, Suzie Price, Martin Stannard &amp; James Sadler
-      </li>
-
-      <li>
-        Design by Luke Rollans
+        Code of conduct by Cath Jones, Suzie Price, Martin Stannard &amp; James
+        Sadler
       </li>
 
       <li>
