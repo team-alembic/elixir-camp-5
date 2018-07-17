@@ -22,7 +22,7 @@ const PrimaryFooter = ({ className }) => (
         <a
           href="https://thenounproject.com/search/?q=bus&i=110224"
           target="_blank">
-          Bus icons by Hayden Kerrisk, NZ on The Noun Project
+          Bus by Hayden Kerrisk, NZ on The Noun Project
         </a>
       </li>
 
@@ -30,7 +30,7 @@ const PrimaryFooter = ({ className }) => (
         <a
           href="https://thenounproject.com/search/?q=marker&i=1629327"
           target="_blank">
-          Marker icon by Dinosoft Labs, PK on The Noun Project
+          Marker by Dinosoft Labs, PK on The Noun Project
         </a>
       </li>
 
@@ -38,7 +38,7 @@ const PrimaryFooter = ({ className }) => (
         <a
           href="https://thenounproject.com/search/?q=ticket&i=1614521"
           target="_blank">
-          Ticket icon by Three Six Five on The Noun Project
+          Ticket by Three Six Five on The Noun Project
         </a>
       </li>
 
@@ -46,7 +46,7 @@ const PrimaryFooter = ({ className }) => (
         <a
           href="https://thenounproject.com/search/?q=calendar&i=1834413"
           target="_blank">
-          Calendar icon by Tom Ingebretsen, US on The Noun Project
+          Calendar by Tom Ingebretsen, US on The Noun Project
         </a>
       </li>
 
@@ -54,7 +54,7 @@ const PrimaryFooter = ({ className }) => (
         <a
           href="https://thenounproject.com/search/?q=plane&i=684674"
           target="_blank">
-          Plane icon by David, US on The Noun Project
+          Plane by David, US on The Noun Project
         </a>
       </li>
 
@@ -62,7 +62,7 @@ const PrimaryFooter = ({ className }) => (
         <a
           href="https://thenounproject.com/search/?q=checkmark&i=1379283"
           target="_blank">
-          Checkmark icon by Logan on The Noun Project
+          Checkmark by Logan on The Noun Project
         </a>
       </li>
     </CreditList>
