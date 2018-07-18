@@ -174,7 +174,7 @@ class Home extends PureComponent {
               </li>
               <li>
                 You've got specialist knowledge and you'd like to share with
-                iother enthusiasts
+                other enthusiasts
               </li>
               <li>You're interested in web technologies</li>
               <li>You've got a weekend project you really want to work on</li>
