@@ -24,6 +24,15 @@ export default {
     ]
   },
 
+  // Ensure we server-render styled-components
+  renderTohtml: (render, Comp, meta) => {
+    const sheet = new ServerStyleSheet()
+    const html = render(sheet.collectStyles(<Comp />))
+    meta.styleTags = sheet.getStyleElement()
+
+    return html
+  },
+
   // Define boilerplate HTML stuff and bring in required Google fonts
   Document: ({ Html, Head, Body, children, siteData, renderMeta }) => (
     <Html>
