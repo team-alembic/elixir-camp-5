@@ -30,14 +30,14 @@ const Organisers = ({ className }) => (
       <Avatar src={JamesPic} />
       <div>
         <Name>James Sadler</Name>
-        <Company>Alembic</Company>
+        <Company><a href="https://alembic.com.au">Alembic</a></Company>
       </div>
     </Organiser>
     <Organiser className={className}>
       <Avatar src={DavePic} />
       <div>
         <Name>David Parry</Name>
-        <Company>Vamp</Company>
+        <Company><a href="http://www.vamp.me/">Vamp</a></Company>
       </div>
     </Organiser>
   </Fragment>
