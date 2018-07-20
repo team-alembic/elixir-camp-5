@@ -1,28 +1,26 @@
-import React from "react"
-import { resetStyles } from "./src/utility/build"
+import React from 'react'
+import { resetStyles } from './src/utility/build'
 
 export default {
   getSiteData: () => ({
-    title: "Elixir Camp 2018",
+    title: 'Elixir Camp 2018',
   }),
 
   // Define the routes of the application
-  getRoutes: async () => {
-    return [
-      {
-        path: "/",
-        component: "src/containers/Home",
-      },
-      {
-        path: "/coc",
-        component: "src/containers/CodeOfConduct",
-      },
-      {
-        is404: true,
-        component: "src/containers/404",
-      },
-    ]
-  },
+  getRoutes: async () => [
+    {
+      path: '/',
+      component: 'src/containers/Home',
+    },
+    {
+      path: '/coc',
+      component: 'src/containers/CodeOfConduct',
+    },
+    {
+      is404: true,
+      component: 'src/containers/404',
+    },
+  ],
 
   // Ensure we server-render styled-components
   renderTohtml: (render, Comp, meta) => {
@@ -34,7 +32,9 @@ export default {
   },
 
   // Define boilerplate HTML stuff and bring in required Google fonts
-  Document: ({ Html, Head, Body, children, siteData, renderMeta }) => (
+  Document: ({
+    Html, Head, Body, children, siteData, renderMeta,
+  }) => (
     <Html>
       <Head>
         <meta charSet="utf-8" />
@@ -42,6 +42,33 @@ export default {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
+
+        <title>Elixir Camp IV - Camp Wombaroo, Mittagong NSW</title>
+        <link rel="canonical" href="http://elixir.camp/" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Elixir Camp IV - Camp Wombaroo, Mittagong NSW"
+        />
+        <meta
+          property="og:description"
+          content="Elixir Camp is a place for people interested in Elixir, Erlang and related technologies to gather, network, share ideas and generally have a great time."
+        />
+        <meta property="og:url" content="http://elixir.camp/" />
+        <meta property="og:image" content="http://elixir.camp/logo.png" />
+        <meta property="og:site_name" content="Elixir Camp IV" />
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:image" content="http://elixir.camp/logo.png" />
+        <meta
+          name="twitter:title"
+          content="Elixir Camp IV - Camp Wombaroo, Mittagong NSW"
+        />
+        <meta
+          name="twitter:description"
+          content="Elixir Camp is a place for people interested in Elixir, Erlang and related technologies to gather, network, share ideas and generally have a great time."
+        />
+        <meta name="twitter:site" content="@elixircamp_au" />
+        <meta name="twitter:creator" content="@elixircamp_au" />
 
         <link
           href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Playfair+Display:400,700"
