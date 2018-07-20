@@ -1,5 +1,6 @@
-import React from "react"
+import React, { Fragment } from "react"
 import JamesPic from "../assets/james.jpg"
+import DavePic from "../assets/dave.png"
 import styled from "styled-components"
 
 const Avatar = styled.img`
@@ -19,14 +20,27 @@ const Company = styled.p`
   font-size: 14px;
 `
 
+const Organiser = styled.div`
+  margin-bottom: 20px;
+`
+
 const Organisers = ({ className }) => (
-  <div className={className}>
-    <Avatar src={JamesPic} />
-    <div>
-      <Name>James Sadler</Name>
-      <Company>Alembic Pty Ltd</Company>
-    </div>
-  </div>
+  <Fragment>
+    <Organiser className={className}>
+      <Avatar src={JamesPic} />
+      <div>
+        <Name>James Sadler</Name>
+        <Company>Alembic</Company>
+      </div>
+    </Organiser>
+    <Organiser className={className}>
+      <Avatar src={DavePic} />
+      <div>
+        <Name>David Parry</Name>
+        <Company>Vamp</Company>
+      </div>
+    </Organiser>
+  </Fragment>
 )
 
 export default styled(Organisers)`
