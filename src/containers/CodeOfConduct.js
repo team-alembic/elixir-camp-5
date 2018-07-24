@@ -35,6 +35,18 @@ const CodeOfConduct = ({ className }) => (
       <li>Unwelcome sexual attention</li>
       <li>Advocating for, or encouraging, any of the above behaviour</li>
     </UnorderedList>
+
+    <Paragraph>
+      Anyone violating these rules will be asked to leave at the discretion of the
+      organisers.
+
+      If you witness or are a victim of harassment or non-exclusion please contact
+      the event organisers, who will introduce themselves at the start of the event.
+      Our strong preference is that we address any issues as and when they
+      happen. However, if you do not feel safe as and when an issue arises, you may
+      contact an organiser via SMS or phone call. Phone numbers will be provided at
+      the start of the event.
+    </Paragraph>
   </article>
 )
 
