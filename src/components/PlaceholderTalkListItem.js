@@ -1,7 +1,7 @@
-import React from "react"
-import PropTypes from "prop-types"
-import styled from "styled-components"
-import Question from "../assets/question.png"
+import React from 'react'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
+import Question from '../assets/question.png'
 
 const Avatar = styled.img`
   width: 50px;
@@ -25,14 +25,13 @@ const PlaceholderTalkListItem = ({ className }) => (
 
     <div>
       <Title>Submit a talk proposal! 🔊</Title>
-      <ContactInfo>Send submissions to <a href="mailto:james@alembic.com.au">james@alembic.com.au</a></ContactInfo>
+      <ContactInfo>
+        Send submissions to{' '}
+        <a href="mailto:james@alembic.com.au">james@alembic.com.au</a>
+      </ContactInfo>
     </div>
   </div>
 )
-
-PlaceholderTalkListItem .propTypes = {
-  talk: PropTypes.object.isRequired,
-}
 
 export default styled(PlaceholderTalkListItem)`
   display: flex;
