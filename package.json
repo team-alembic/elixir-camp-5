@@ -19,7 +19,7 @@
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
     "prettier": "^1.13.7",
-    "serve": "^6.1.0",
+    "serve": "~>7.0.0",
     "styled-components": "^3.3.3"
   }
 }
