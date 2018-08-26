@@ -155,9 +155,13 @@ class Home extends PureComponent {
               have a great time.
             </Paragraph>
 
+            
+            <Header2>Diversity and Inclusion</Header2>
+
             <Paragraph>
               While there's a general focus on Elixir developers, people
-              of any background are encouraged to attend. We are committed to creating an open and inclusive community you can read more about our diversity and inclsuion inutives <Link to="/DiversityAndInclusion">here</Link>.
+              of any background are encouraged to attend. We are committed to creating an open and inclusive community and as such have started developing a serise of policies and inutives that you can read more about <Link to="/DiversityAndInclusion">here</Link>.
+
             </Paragraph>
 
             <Header2>You should come to Elixir Camp if:</Header2>
