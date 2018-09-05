@@ -21,7 +21,7 @@ Building on the success of past events, this camp will be held at Camp Wombaroo 
 
 An Elixir Camp strives to be a fun, friendly educational technology focussed event. Attendees will arrive by a coach to the camp in the late afternoon on Friday. There'll be some housekeeping, announcements and sponsor shout outs to make and the attendees will have the opportunity to socialise.
 
-The main hall will serve as a hacking space with power points provided. On Saturday and Sunday there will be a mix of pre-announced and unannounced talks and workshops run by attendees in dedidicated areas equipped with a projector.  Campers can choose to attend as few or as many talks as they wish. They may choose to hack on a side project or simply socialise with other members of the community.
+The main hall will serve as a hacking space with power points provided. On Saturday and Sunday there will be a mix of pre-announced and unannounced talks and workshops run by attendees in dedidicated areas equipped with a projector. Campers can choose to attend as few or as many talks as they wish. They may choose to hack on a side project or simply socialise with other members of the community.
 
 Breakfast, lunch and dinner will be catered. Friday evening will kick off with an opening BBQ! Snacks will be provided between meals. Alcohol will not be provided but campers are welcome to supply to their own.
 
@@ -61,7 +61,7 @@ Every sponsor:
 
 - Subsidised diversity and student tickets
 - A bus to take campers from Mittagong to Wombaroo on the Friday and back on Monday morning
-- Coffee supplies and barista for Saturday & Sunday morning
+- Coffee & tea beverages
 - Non-alcoholic beverages
 - Elixir Camp T's and stickers
 - Extra special snacks (excellent food keeps campers happy!)
@@ -83,4 +83,4 @@ Please contact James Sadler by email at james@alembic.com.au or by phone on 0447
 Thank you,
 
 The Elixir Camp IV Team
-James Sadler & David Parry
+James Sadler & Cath Jones
