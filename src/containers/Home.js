@@ -14,6 +14,7 @@ import Map from "../components/Map"
 import TalkList from "../components/TalkList"
 import Organisers from "../components/Organisers"
 import Sponsors from "../components/Sponsors"
+import SponsorList from "../components/SponsorList"
 import PrimaryFooter from "../components/PrimaryFooter"
 import MobileOnly from "../components/MobileOnly"
 import styled from "styled-components"
@@ -95,14 +96,6 @@ class Home extends PureComponent {
   render() {
     return (
       <PageWrapper>
-        {this.state.showTravelInformation ? (
-          <TravelInfoModal
-            onCloseClicked={() =>
-              this.setState({ showTravelInformation: false })
-            }
-          />
-        ) : null}
-
         <HeroWrapper>
           <WidthWrapper>
             <PageTitle>Elixir Camp 4</PageTitle>
@@ -250,6 +243,8 @@ class Home extends PureComponent {
             <BuyTicketsButton />
 
             <Map />
+
+            <SponsorList />
 
             <Header2>Talks &amp; Education</Header2>
 
