@@ -12,7 +12,7 @@ const DiversityAndInclusion = ({ className }) => (
     <Header1>Diversity and Inclusion</Header1>
 
     <Paragraph>
-      We are striving to improve the diversity and inclusion of not just the Elixir community but the tech community as a whole in Australia. As such we have a <Link to="/coc">code of conduct</Link> that all camp attendees must follow. We are also developing a transparent process for dealing with violations of this code of conduct. Below we outline some of our current initiatives. If you have any feedback or concerns please feel free to reach out to cath@bitgirl101.com.
+      We are striving to improve the diversity and inclusion of not just the Elixir community but the tech community as a whole in Australia. As such we have a <Link to="/code-of-conduct">code of conduct</Link> that all camp attendees must follow. We are also developing a transparent process for dealing with violations of this code of conduct. Below we outline some of our current initiatives. If you have any feedback or concerns please feel free to reach out to cath@bitgirl101.com.
     </Paragraph>
 
     <Header2>Ticketing</Header2>

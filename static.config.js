@@ -13,7 +13,7 @@ export default {
       component: 'src/containers/Home',
     },
     {
-      path: '/coc',
+      path: '/code-of-conduct',
       component: 'src/containers/CodeOfConduct',
     },
     {

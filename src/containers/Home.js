@@ -182,7 +182,7 @@ class Home extends PureComponent {
               <li>You're interested in web technologies</li>
               <li>You've got a weekend project you really want to work on</li>
               <li>
-                You'll abide by our&nbsp;<Link to="/coc">code of conduct</Link>
+                You'll abide by our&nbsp;<Link to="/code-of-conduct">code of conduct</Link>
               </li>
             </PrettyUnorderedList>
 
