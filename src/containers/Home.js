@@ -2,7 +2,6 @@ import React, { PureComponent } from "react"
 import Paragraph from "../components/Paragraph"
 import Header1 from "../components/Header1"
 import Header2 from "../components/Header2"
-import TravelInfoModal from "../components/TravelInfoModal"
 import IconHeader from "../components/IconHeader"
 import Calendar from "../components/icons/Calendar"
 import Marker from "../components/icons/Marker"
@@ -53,30 +52,14 @@ const HeroWrapper = styled.div`
   }
 `
 
-const ShowTravelInfoButton = styled.button`
-  font-size: 18px;
-  font-weight: 700;
-  text-decoration: underline;
-  display: flex;
-  justify-content: space-between;
-  width: 220px;
-  margin-top: 30px;
-  align-items: center;
-  cursor: pointer;
-  color: #fff;
-  outline: 0;
-  border: 0;
-  background: 0;
-
-  @media only screen and (max-width: 640px) {
-    margin-bottom: 30px;
-  }
-`
-
 const LeftColumn = styled.div`
   width: 58%;
   float: left;
   padding-right: 50px;
+
+  strong {
+    text-decoration: underline;
+  }
 
   @media only screen and (max-width: 640px) {
     float: none;
@@ -135,12 +118,6 @@ class Home extends PureComponent {
               subText="(near Mittagong, Sydney)"
             />
 
-            <ShowTravelInfoButton
-              onClick={() => this.setState({ showTravelInformation: true })}>
-              <SmallTrain />
-              Show transport info!
-            </ShowTravelInfoButton>
-
             <MobileOnly>
               <BuyTicketsButton />
             </MobileOnly>
@@ -155,12 +132,14 @@ class Home extends PureComponent {
               have a great time.
             </Paragraph>
 
-            
             <Header2>Diversity and Inclusion</Header2>
 
             <Paragraph>
-              While there's a general focus on Elixir developers, people
-              of any background are encouraged to attend. We are committed to creating an open and inclusive community and as such have started developing a series of policies and initiatives that you can read more about <Link to="/DiversityAndInclusion">here</Link>.
+              While there's a general focus on Elixir developers, people of any
+              background are encouraged to attend. We are committed to creating
+              an open and inclusive community and as such have started
+              developing a series of policies and initiatives that you can read
+              more about <Link to="/DiversityAndInclusion">here</Link>.
             </Paragraph>
 
             <Header2>You should come to Elixir Camp if:</Header2>
@@ -182,7 +161,9 @@ class Home extends PureComponent {
               <li>You're interested in web technologies</li>
               <li>You've got a weekend project you really want to work on</li>
               <li>
-                You'll abide by our&nbsp;<Link to="/code-of-conduct">code of conduct</Link>
+                You'll abide by our&nbsp;<Link to="/code-of-conduct">
+                  code of conduct
+                </Link>
               </li>
             </PrettyUnorderedList>
 
@@ -222,6 +203,44 @@ class Home extends PureComponent {
                 Humanity, Flux and Poker have all featured at previous camps
               </li>
             </UnorderedList>
+
+            <Header2>Getting to Elixir Camp on Friday 26th</Header2>
+
+            <Paragraph>
+              Attendees should catch a{" "}
+              <strong>train from Sydney Central to Mittagong</strong>. A shuttle
+              bus will depart <strong>Mittangong at 3:30pm sharp</strong> to
+              take everyone the rest of the way to Camp Wombaroo. See:{" "}
+              <a href="https://transportnsw.info/routes/details/intercity-trains/shl/76SHL">
+                train timetable
+              </a>.
+            </Paragraph>
+            <Paragraph>
+              On the way to Camp Wombaroo there will be a stop to optionally
+              purchase alcohol and snacks.
+            </Paragraph>
+            <Paragraph>
+              Note: if you're planning on flying into Sydney, catch a train to
+              Sydney Central and make sure you{" "}
+              <strong>allow ample time for your journey</strong> by train to
+              Mittagong.
+            </Paragraph>
+
+            <Header2>Departing Elixir Camp on Monday 29th</Header2>
+
+            <Paragraph>
+              The shuttle bus will depart Camp Wombaroo{" "}
+              <strong>no later than 9am</strong> to drop off at Mittagong
+              station where campers should make their way back to Sydney Central
+              by train. See:{" "}
+              <a href="https://transportnsw.info/routes/details/intercity-trains/shl/76SHL">
+                train timetable
+              </a>.
+            </Paragraph>
+
+            <Paragraph>
+              Please allow ample time for delays, epsecially if you're flying.
+            </Paragraph>
 
             <Header2 id="sponsors">Sponsors</Header2>
             <Sponsors />
