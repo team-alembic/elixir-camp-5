@@ -266,7 +266,7 @@ class Home extends PureComponent {
                   avatarImageUrl:
                     "https://pbs.twimg.com/profile_images/580853399333126144/PQ6yms7K_400x400.jpg",
                   authorFullName: "Dan Draper",
-                  title: "Crypography in Elixir 🔑"
+                  title: "Cryptography in Elixir 🔑"
                 },
               ]}
             />
