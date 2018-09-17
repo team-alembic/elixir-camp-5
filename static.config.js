@@ -1,33 +1,34 @@
-import React from 'react'
-import { resetStyles } from './src/utility/build'
+import React from "react"
+import { ServerStyleSheet } from "styled-components"
+import { resetStyles } from "./src/utility/build"
 
 export default {
   getSiteData: () => ({
-    title: 'Elixir Camp 2018',
+    title: "Elixir Camp 2018",
   }),
 
   // Define the routes of the application
   getRoutes: async () => [
     {
-      path: '/',
-      component: 'src/containers/Home',
+      path: "/",
+      component: "src/containers/Home",
     },
     {
-      path: '/code-of-conduct',
-      component: 'src/containers/CodeOfConduct',
+      path: "/code-of-conduct",
+      component: "src/containers/CodeOfConduct",
     },
     {
-      path: '/DiversityAndInclusion',
-      component: 'src/containers/DiversityAndInclusion',
+      path: "/DiversityAndInclusion",
+      component: "src/containers/DiversityAndInclusion",
     },
     {
       is404: true,
-      component: 'src/containers/404',
+      component: "src/containers/404",
     },
   ],
 
   // Ensure we server-render styled-components
-  renderTohtml: (render, Comp, meta) => {
+  renderToHtml: (render, Comp, meta) => {
     const sheet = new ServerStyleSheet()
     const html = render(sheet.collectStyles(<Comp />))
     meta.styleTags = sheet.getStyleElement()
@@ -36,9 +37,7 @@ export default {
   },
 
   // Define boilerplate HTML stuff and bring in required Google fonts
-  Document: ({
-    Html, Head, Body, children, siteData, renderMeta,
-  }) => (
+  Document: ({ Html, Head, Body, children, siteData, renderMeta }) => (
     <Html>
       <Head>
         <meta charSet="utf-8" />
