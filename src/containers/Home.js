@@ -19,6 +19,7 @@ import PrimaryFooter from "../components/PrimaryFooter"
 import MobileOnly from "../components/MobileOnly"
 import styled from "styled-components"
 import { Link } from "react-static"
+import Jeff from "../assets/jeff-avatar.png"
 
 const PageWrapper = styled.div`
   padding-bottom: 150px;
@@ -267,6 +268,11 @@ class Home extends PureComponent {
                     "https://pbs.twimg.com/profile_images/580853399333126144/PQ6yms7K_400x400.jpg",
                   authorFullName: "Dan Draper",
                   title: "Cryptography in Elixir 🔑"
+                },
+                {
+                  avatarImageUrl: Jeff,
+                  authorFullName: "Jeff Chan",
+                  title: "Beginner’s Guide - Enum is your new best friend 🌀"
                 },
               ]}
             />
