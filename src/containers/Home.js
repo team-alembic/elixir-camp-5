@@ -20,6 +20,7 @@ import MobileOnly from "../components/MobileOnly"
 import styled from "styled-components"
 import { Link } from "react-static"
 import Jeff from "../assets/jeff-avatar.png"
+import Petch from "../assets/petch_7_med.jpg"
 
 const PageWrapper = styled.div`
   padding-bottom: 150px;
@@ -268,6 +269,11 @@ class Home extends PureComponent {
                     "https://pbs.twimg.com/profile_images/580853399333126144/PQ6yms7K_400x400.jpg",
                   authorFullName: "Dan Draper",
                   title: "Cryptography in Elixir 🔑"
+                },
+                {
+                  avatarImageUrl: Petch,
+                  authorFullName: "Petra Gulicher",
+                  title: "Learning Elixir: Building a to-do app with Phoenix and React 🔥🐔"
                 },
                 {
                   avatarImageUrl: Jeff,
