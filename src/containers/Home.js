@@ -274,6 +274,11 @@ class Home extends PureComponent {
                   authorFullName: "Jeff Chan",
                   title: "Beginner’s Guide - Enum is your new best friend 🌀"
                 },
+                {
+                  avatarImageUrl: "https://joshleeb.com/images/avatar@2x.png",
+                  authorFullName: "Josh Leeb-du Toit",
+                  title: "Elixir with Rust for Incredible Performance and Safety 💨"
+                },
               ]}
             />
 
