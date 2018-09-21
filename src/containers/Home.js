@@ -21,6 +21,7 @@ import styled from "styled-components"
 import { Link } from "react-static"
 import Jeff from "../assets/jeff-avatar.png"
 import Petch from "../assets/petch_7_med.jpg"
+import Cath from '../assets/cath.jpg'
 
 const PageWrapper = styled.div`
   padding-bottom: 150px;
@@ -284,6 +285,11 @@ class Home extends PureComponent {
                   avatarImageUrl: "https://joshleeb.com/images/avatar@2x.png",
                   authorFullName: "Josh Leeb-du Toit",
                   title: "Elixir with Rust for Incredible Performance and Safety 💨"
+                },
+                {
+                  avatarImageUrl: Cath,
+                  authorFullName: "Catherine Jones",
+                  title: "Neurodiversity at work 🧠"
                 },
               ]}
             />
