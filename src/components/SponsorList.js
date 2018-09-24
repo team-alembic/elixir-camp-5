@@ -6,6 +6,7 @@ import alembicLogo from "../assets/alembic-logo-horizontal.svg"
 import expert360Logo from "../assets/expert360_logo.svg"
 import blackmillLogo from "../assets/blackmill-logo.svg"
 import lookaheadLogo from "../assets/lookahead-logo.png"
+import manningLogo from "../assets/Manninglogo_outline.png"
 import Header2 from "../components/Header2"
 
 const Sponsors = styled.div`
@@ -33,6 +34,9 @@ export default ({ className }) => (
     </a>
     <a href="https://expert360.com">
       <img src={expert360Logo} />
+    </a>
+    <a href="https://www.manning.com/">
+      <img src={manningLogo} />
     </a>
   </Sponsors>
 )
