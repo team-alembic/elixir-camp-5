@@ -263,7 +263,7 @@ class Home extends PureComponent {
                   avatarImageUrl:
                     "https://avatars1.githubusercontent.com/u/2769?s=460&v=4",
                   authorFullName: "James Sadler",
-                  title: "All About Umbrella Applications ☂️",
+                  title: "Meta: How to run an Elixir Camp 💧⛺️",
                 },
                 {
                   avatarImageUrl:
