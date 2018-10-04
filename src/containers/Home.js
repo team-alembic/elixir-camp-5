@@ -291,6 +291,11 @@ class Home extends PureComponent {
                   authorFullName: "Catherine Jones",
                   title: "Neurodiversity at work 🧠"
                 },
+                {
+                  avatarImageUrl: "https://pbs.twimg.com/profile_images/530324657086287873/uX6j-9UV_400x400.jpeg",
+                  authorFullName: "Martin Stannard",
+                  title: "Seeing Processes with Scenic 🏔"
+                },
               ]}
             />
 
