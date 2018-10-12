@@ -21,7 +21,7 @@ import styled from "styled-components"
 import { Link } from "react-static"
 import Jeff from "../assets/jeff-avatar.png"
 import Petch from "../assets/petch_7_med.jpg"
-import Cath from '../assets/cath.jpg'
+import Cath from "../assets/cath.jpg"
 
 const PageWrapper = styled.div`
   padding-bottom: 150px;
@@ -212,8 +212,17 @@ class Home extends PureComponent {
               </a>.
             </Paragraph>
             <Paragraph>
-              On the way to Camp Wombaroo there will be a stop to optionally
-              purchase alcohol and snacks.
+              If attendees would like to alcoholic beverages there is a Dan
+              Murphy's in Mittagong. Just make sure you're back at the station
+              in time to meet the bus!
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1645.0143292046296!2d150.44484392375517!3d-34.4514203964387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b13a3a7a63f4a49%3A0xf833f02e5e23bfe9!2sDan+Murphy&#39;s+Mittagong!5e0!3m2!1sen!2sau!4v1539319573110"
+                width="600"
+                height="450"
+                frameborder="0"
+                style={{ border: 0 }}
+                allowfullscreen
+              />
             </Paragraph>
             <Paragraph>
               Note: if you're planning on flying into Sydney, catch a train to
@@ -269,32 +278,35 @@ class Home extends PureComponent {
                   avatarImageUrl:
                     "https://pbs.twimg.com/profile_images/580853399333126144/PQ6yms7K_400x400.jpg",
                   authorFullName: "Dan Draper",
-                  title: "Cryptography in Elixir 🔑"
+                  title: "Cryptography in Elixir 🔑",
                 },
                 {
                   avatarImageUrl: Petch,
                   authorFullName: "Petra Gulicher",
-                  title: "Learning Elixir: Building a to-do app with Phoenix and React 🔥🐔"
+                  title:
+                    "Learning Elixir: Building a to-do app with Phoenix and React 🔥🐔",
                 },
                 {
                   avatarImageUrl: Jeff,
                   authorFullName: "Jeff Chan",
-                  title: "Beginner’s Guide - Enum is your new best friend 🌀"
+                  title: "Beginner’s Guide - Enum is your new best friend 🌀",
                 },
                 {
                   avatarImageUrl: "https://joshleeb.com/images/avatar@2x.png",
                   authorFullName: "Josh Leeb-du Toit",
-                  title: "Elixir with Rust for Incredible Performance and Safety 💨"
+                  title:
+                    "Elixir with Rust for Incredible Performance and Safety 💨",
                 },
                 {
                   avatarImageUrl: Cath,
                   authorFullName: "Catherine Jones",
-                  title: "Neurodiversity at work 🧠"
+                  title: "Neurodiversity at work 🧠",
                 },
                 {
-                  avatarImageUrl: "https://pbs.twimg.com/profile_images/530324657086287873/uX6j-9UV_400x400.jpeg",
+                  avatarImageUrl:
+                    "https://pbs.twimg.com/profile_images/530324657086287873/uX6j-9UV_400x400.jpeg",
                   authorFullName: "Martin Stannard",
-                  title: "Seeing Processes with Scenic 🏔"
+                  title: "Seeing Processes with Scenic 🏔",
                 },
               ]}
             />
