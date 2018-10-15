@@ -205,11 +205,16 @@ class Home extends PureComponent {
             <Paragraph>
               Attendees should catch a{" "}
               <strong>train from Sydney Central to Mittagong</strong>. A shuttle
-              bus will depart <strong>Mittangong at 3:30pm sharp</strong> to
+              bus will depart <strong>Mittangong at 4:30pm sharp</strong> to
               take everyone the rest of the way to Camp Wombaroo. See:{" "}
               <a href="https://transportnsw.info/routes/details/intercity-trains/shl/76SHL">
                 train timetable
               </a>.
+            </Paragraph>
+            <Paragraph>
+              Please note that this is an hour later than the originally
+              scheduled. If you find yourself in Mittagong early, there are some
+              cafes, shops and pubs in which to pleasantly pass the time :)
             </Paragraph>
             <Paragraph>
               If attendees would like to alcoholic beverages there is a Dan
@@ -235,12 +240,21 @@ class Home extends PureComponent {
 
             <Paragraph>
               The shuttle bus will depart Camp Wombaroo{" "}
-              <strong>no later than 9am</strong> to drop off at Mittagong
+              <strong>no later than 9:30am</strong> to drop off at Mittagong
               station where campers should make their way back to Sydney Central
               by train. See:{" "}
               <a href="https://transportnsw.info/routes/details/intercity-trains/shl/76SHL">
                 train timetable
               </a>.
+            </Paragraph>
+
+            <Paragraph>
+              Please note that this is 30 minutes later than originally
+              scheduled. If you were planning on making the 9:34am train to
+              Sydney Central the next available service is 10:18am. If you
+              absolutely must make the 9:34am train, then speak to James during
+              the camp to arrange an early lift. We don't want any attendees
+              missing flights!
             </Paragraph>
 
             <Paragraph>
