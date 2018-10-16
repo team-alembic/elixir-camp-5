@@ -205,8 +205,9 @@ class Home extends PureComponent {
             <Paragraph>
               Attendees should catch a{" "}
               <strong>train from Sydney Central to Mittagong</strong>. A shuttle
-              bus will depart <strong>Mittangong at 4:30pm sharp</strong> to
-              take everyone the rest of the way to Camp Wombaroo. See:{" "}
+              bus will depart{" "}
+              <strong>from the North side of Mittangong at 4:30pm sharp</strong>{" "}
+              to take everyone the rest of the way to Camp Wombaroo. See:{" "}
               <a href="https://transportnsw.info/routes/details/intercity-trains/shl/76SHL">
                 train timetable
               </a>.
