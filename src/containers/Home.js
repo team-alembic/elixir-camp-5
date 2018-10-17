@@ -22,6 +22,7 @@ import { Link } from "react-static"
 import Jeff from "../assets/jeff-avatar.png"
 import Petch from "../assets/petch_7_med.jpg"
 import Cath from "../assets/cath.jpg"
+import Brenton from "../assets/brenton.png"
 
 const PageWrapper = styled.div`
   padding-bottom: 150px;
@@ -322,6 +323,11 @@ class Home extends PureComponent {
                     "https://pbs.twimg.com/profile_images/530324657086287873/uX6j-9UV_400x400.jpeg",
                   authorFullName: "Martin Stannard",
                   title: "Seeing Processes with Scenic 🏔",
+                },
+                {
+                  avatarImageUrl: Brenton,
+                  authorFullName: "Brenton Annan",
+                  title: "Event Sourcing in Elixir, From Scratch 🚰",
                 },
               ]}
             />
