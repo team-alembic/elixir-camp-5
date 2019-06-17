@@ -106,7 +106,7 @@ class Home extends PureComponent {
 
             <IconHeader
               IconComponent={Calendar}
-              text="October 26th - 29th, 2018"
+              text="October 25th - 28th, 2019"
             />
 
             <IconHeader
@@ -201,7 +201,7 @@ class Home extends PureComponent {
               </li>
             </UnorderedList>
 
-            <Header2>Getting to Elixir Camp on Friday 26th</Header2>
+            <Header2>Getting to Elixir Camp on Friday 25th</Header2>
 
             <Paragraph>
               Attendees should catch a{" "}

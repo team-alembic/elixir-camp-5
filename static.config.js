@@ -47,7 +47,7 @@ export default {
         />
 
         <title>
-          Elixir Camp IV - 26th-29th October, Camp Wombaroo, Mittagong NSW
+          Elixir Camp IV - 25th-28th October, Camp Wombaroo, Mittagong NSW
         </title>
         <link rel="canonical" href="http://elixir.camp/" />
         <meta property="og:type" content="website" />
@@ -66,7 +66,7 @@ export default {
         <meta name="twitter:image" content="http://elixir.camp/logo.png" />
         <meta
           name="twitter:title"
-          content="Elixir Camp IV - 26th-29th October, Camp Wombaroo, Mittagong NSW"
+          content="Elixir Camp IV - 25th-28th October, Camp Wombaroo, Mittagong NSW"
         />
         <meta
           name="twitter:description"
