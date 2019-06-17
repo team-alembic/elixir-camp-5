@@ -276,61 +276,7 @@ class Home extends PureComponent {
 
             <Header2>Talks &amp; Education</Header2>
 
-            <TalkList
-              talks={[
-                {
-                  avatarImageUrl:
-                    "https://avatars1.githubusercontent.com/u/9307?s=460&v=4",
-                  authorFullName: "Josh Price",
-                  title: "Why Elixir? 🤯",
-                },
-                {
-                  avatarImageUrl:
-                    "https://avatars1.githubusercontent.com/u/2769?s=460&v=4",
-                  authorFullName: "James Sadler",
-                  title: "Meta: How to run an Elixir Camp 💧⛺️",
-                },
-                {
-                  avatarImageUrl:
-                    "https://pbs.twimg.com/profile_images/580853399333126144/PQ6yms7K_400x400.jpg",
-                  authorFullName: "Dan Draper",
-                  title: "Cryptography in Elixir 🔑",
-                },
-                {
-                  avatarImageUrl: Petch,
-                  authorFullName: "Petra Gulicher",
-                  title:
-                    "Learning Elixir: Building a to-do app with Phoenix and React 🔥🐔",
-                },
-                {
-                  avatarImageUrl: Jeff,
-                  authorFullName: "Jeff Chan",
-                  title: "Beginner’s Guide - Enum is your new best friend 🌀",
-                },
-                {
-                  avatarImageUrl: "https://joshleeb.com/images/avatar@2x.png",
-                  authorFullName: "Josh Leeb-du Toit",
-                  title:
-                    "Elixir with Rust for Incredible Performance and Safety 💨",
-                },
-                {
-                  avatarImageUrl: Cath,
-                  authorFullName: "Catherine Jones",
-                  title: "Neurodiversity at work 🧠",
-                },
-                {
-                  avatarImageUrl:
-                    "https://pbs.twimg.com/profile_images/530324657086287873/uX6j-9UV_400x400.jpeg",
-                  authorFullName: "Martin Stannard",
-                  title: "Seeing Processes with Scenic 🏔",
-                },
-                {
-                  avatarImageUrl: Brenton,
-                  authorFullName: "Brenton Annan",
-                  title: "Event Sourcing in Elixir, From Scratch 🚰",
-                },
-              ]}
-            />
+            <TalkList talks={[]} />
 
             <Header2>Organisers</Header2>
             <Organisers />

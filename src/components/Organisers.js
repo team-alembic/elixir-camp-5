@@ -1,7 +1,7 @@
-import React, { Fragment } from 'react'
-import CathPic from '../assets/cath.jpg'
-import JamesPic from '../assets/james.jpg'
-import styled from 'styled-components'
+import React, { Fragment } from "react"
+import CathPic from "../assets/cath.jpg"
+import JamesPic from "../assets/james.jpg"
+import styled from "styled-components"
 
 const Avatar = styled.img`
   width: 100px;
@@ -32,15 +32,6 @@ const Organisers = ({ className }) => (
         <Name>James Sadler</Name>
         <Company>
           <a href="https://alembic.com.au">Alembic</a>
-        </Company>
-      </div>
-    </Organiser>
-    <Organiser className={className}>
-      <Avatar src={CathPic} />
-      <div>
-        <Name>Cath Jones</Name>
-        <Company>
-          <a href="https://buildkite.com">Buildkite</a>
         </Company>
       </div>
     </Organiser>

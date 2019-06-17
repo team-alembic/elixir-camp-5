@@ -20,23 +20,8 @@ const Sponsors = styled.div`
 export default ({ className }) => (
   <Sponsors className={className}>
     <Header2>Our sponsors</Header2>
-    <a href="https://buildkite.com/">
-      <img src={buildkiteLogo} />
-    </a>
     <a href="https://alembic.com.au">
       <img src={alembicLogo} />
-    </a>
-    <a href="https://blackmill.co">
-      <img src={blackmillLogo} />
-    </a>
-    <a href="https://lookahead.com.au">
-      <img src={lookaheadLogo} />
-    </a>
-    <a href="https://expert360.com">
-      <img src={expert360Logo} />
-    </a>
-    <a href="https://www.manning.com/">
-      <img src={manningLogo} />
     </a>
   </Sponsors>
 )
