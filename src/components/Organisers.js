@@ -1,5 +1,5 @@
 import React, { Fragment } from "react"
-import CathPic from "../assets/cath.jpg"
+import PaulPic from "../assets/paul.jpg"
 import JamesPic from "../assets/james.jpg"
 import styled from "styled-components"
 
@@ -30,6 +30,15 @@ const Organisers = ({ className }) => (
       <Avatar src={JamesPic} />
       <div>
         <Name>James Sadler</Name>
+        <Company>
+          <a href="https://alembic.com.au">Alembic</a>
+        </Company>
+      </div>
+    </Organiser>
+    <Organiser className={className}>
+      <Avatar src={PaulPic} />
+      <div>
+        <Name>Paul Fioravanti</Name>
         <Company>
           <a href="https://alembic.com.au">Alembic</a>
         </Company>
