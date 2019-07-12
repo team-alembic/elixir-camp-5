@@ -26,8 +26,8 @@ const ButtonLink = styled.a`
 
 export default function() {
   return (
-    <ButtonLink href="https://ti.to/elixir-australia/elixir-camp-4">
-      <Ticket/>
+    <ButtonLink href="https://ti.to/elixir-australia/elixir-camp-2019">
+      <Ticket />
       Buy Tickets!
     </ButtonLink>
   )

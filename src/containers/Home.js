@@ -158,9 +158,8 @@ class Home extends PureComponent {
               <li>You're interested in web technologies</li>
               <li>You've got a weekend project you really want to work on</li>
               <li>
-                You'll abide by our&nbsp;<Link to="/code-of-conduct">
-                  code of conduct
-                </Link>
+                You'll abide by our&nbsp;
+                <Link to="/code-of-conduct">code of conduct</Link>
               </li>
             </PrettyUnorderedList>
 
@@ -204,14 +203,19 @@ class Home extends PureComponent {
             <Header2>Getting to Elixir Camp on Friday 25th</Header2>
 
             <Paragraph>
+              NOTE: shuttle bus pick up time from Mittagong to be confirmed.
+            </Paragraph>
+
+            <Paragraph>
               Attendees should catch a{" "}
               <strong>train from Sydney Central to Mittagong</strong>. A shuttle
               bus will depart{" "}
-              <strong>from the North side of Mittangong at 4:30pm sharp</strong>{" "}
-              to take everyone the rest of the way to Camp Wombaroo. See:{" "}
+              <strong>from the North side of Mittangong at TBC</strong> to take
+              everyone the rest of the way to Camp Wombaroo. See:{" "}
               <a href="https://transportnsw.info/routes/details/intercity-trains/shl/76SHL">
                 train timetable
-              </a>.
+              </a>
+              .
             </Paragraph>
             <Paragraph>
               Please note that this is an hour later than the originally
@@ -247,16 +251,8 @@ class Home extends PureComponent {
               by train. See:{" "}
               <a href="https://transportnsw.info/routes/details/intercity-trains/shl/76SHL">
                 train timetable
-              </a>.
-            </Paragraph>
-
-            <Paragraph>
-              Please note that this is 30 minutes later than originally
-              scheduled. If you were planning on making the 9:34am train to
-              Sydney Central the next available service is 10:18am. If you
-              absolutely must make the 9:34am train, then speak to James during
-              the camp to arrange an early lift. We don't want any attendees
-              missing flights!
+              </a>
+              .
             </Paragraph>
 
             <Paragraph>
