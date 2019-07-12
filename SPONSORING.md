@@ -33,7 +33,7 @@ Sunday evening will conclude with presentations on all the fun stuff that the ca
 
 - Elixir Camp IV website launched: July 2018
 - Talks and workshops announced: late August/early September 2018
-- Elixir Camp IV dates: 26th October 2018 - 29th October 2018
+- Elixir Camp IV dates: 25th October 2018 - 28th October 2018
 
 ## Reasons to sponsor Elixir Camp
 

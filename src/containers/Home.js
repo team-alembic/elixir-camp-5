@@ -242,7 +242,7 @@ class Home extends PureComponent {
               Mittagong.
             </Paragraph>
 
-            <Header2>Departing Elixir Camp on Monday 29th</Header2>
+            <Header2>Departing Elixir Camp on Monday 28th</Header2>
 
             <Paragraph>
               The shuttle bus will depart Camp Wombaroo{" "}

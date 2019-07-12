@@ -53,7 +53,7 @@ export default {
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Elixir Camp IV - 26th-29th October, Camp Wombaroo, Mittagong NSW"
+          content="Elixir Camp IV - 25th-28th October, Camp Wombaroo, Mittagong NSW"
         />
         <meta
           property="og:description"
