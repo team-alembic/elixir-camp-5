@@ -102,7 +102,7 @@ class Home extends PureComponent {
       <PageWrapper>
         <HeroWrapper>
           <WidthWrapper>
-            <PageTitle>Elixir Camp 4</PageTitle>
+            <PageTitle>Elixir Camp 2019</PageTitle>
 
             <IconHeader
               IconComponent={Calendar}

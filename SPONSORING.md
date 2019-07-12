@@ -1,6 +1,6 @@
-# Elixir Camp IV
+# Elixir Camp 2019
 
-Friday 25th October to Monday 28th October 2018
+Friday 25th October to Monday 28th October 2019
 Camp Wombaroo, Mittagong
 
 # Sponsoring Elixir Camp
