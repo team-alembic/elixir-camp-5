@@ -9,7 +9,7 @@ Camp Wombaroo, Mittagong
 
 ### Join a community of antipodean Elixirists!
 
-Elixir Camp is a not for profit technology event run by volunteers twice per year in Australia. The Australian Elixir community is delighted to offer you the opportunity to become a sponsor for Elixir Camp IV at Camp Wombaroo, Mittagong on October 2018.
+Elixir Camp is a not for profit technology event run by volunteers twice per year in Australia. The Australian Elixir community is delighted to offer you the opportunity to become a sponsor for Elixir Camp 2019 at Camp Wombaroo, Mittagong on October 2018.
 
 The Elixir community in Australia is growing steadily. This year we expect over 65 passionate Elixir professionals and enthusiasts to converge for a weekend of presentations, lightning talks, workshops and hacking.
 
@@ -31,9 +31,9 @@ Sunday evening will conclude with presentations on all the fun stuff that the ca
 
 ## Key Dates
 
-- Elixir Camp IV website launched: July 2018
+- Elixir Camp 2019 website launched: July 2018
 - Talks and workshops announced: late August/early September 2018
-- Elixir Camp IV dates: 25th October 2018 - 28th October 2018
+- Elixir Camp 2019 dates: 25th October 2018 - 28th October 2018
 
 ## Reasons to sponsor Elixir Camp
 
@@ -82,5 +82,5 @@ Please contact James Sadler by email at james@alembic.com.au or by phone on 0447
 
 Thank you,
 
-The Elixir Camp IV Team
+The Elixir Camp 2019 Team
 James Sadler & Cath Jones

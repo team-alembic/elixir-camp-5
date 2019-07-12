@@ -47,13 +47,13 @@ export default {
         />
 
         <title>
-          Elixir Camp IV - 25th-28th October, Camp Wombaroo, Mittagong NSW
+          Elixir Camp 2019 - 25th-28th October, Camp Wombaroo, Mittagong NSW
         </title>
         <link rel="canonical" href="http://elixir.camp/" />
         <meta property="og:type" content="website" />
         <meta
           property="og:title"
-          content="Elixir Camp IV - 25th-28th October, Camp Wombaroo, Mittagong NSW"
+          content="Elixir Camp 2019 - 25th-28th October, Camp Wombaroo, Mittagong NSW"
         />
         <meta
           property="og:description"
@@ -61,12 +61,12 @@ export default {
         />
         <meta property="og:url" content="http://elixir.camp/" />
         <meta property="og:image" content="http://elixir.camp/logo.png" />
-        <meta property="og:site_name" content="Elixir Camp IV" />
+        <meta property="og:site_name" content="Elixir Camp 2019" />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:image" content="http://elixir.camp/logo.png" />
         <meta
           name="twitter:title"
-          content="Elixir Camp IV - 25th-28th October, Camp Wombaroo, Mittagong NSW"
+          content="Elixir Camp 2019 - 25th-28th October, Camp Wombaroo, Mittagong NSW"
         />
         <meta
           name="twitter:description"
