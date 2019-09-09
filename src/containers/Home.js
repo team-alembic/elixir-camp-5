@@ -26,6 +26,7 @@ import Will from "../assets/will.webp"
 import Qing from "../assets/qing.jpeg"
 import Paul from "../assets/paul.jpg"
 import James from "../assets/james.jpg"
+import Elle from "../assets/elle.png"
 
 const PageWrapper = styled.div`
   padding-bottom: 150px;
@@ -206,29 +207,33 @@ class Home extends PureComponent {
             <Header2>Getting to Elixir Camp on Friday 25th</Header2>
 
             <Paragraph>
-              NOTE: shuttle bus pick up time from Mittagong to be confirmed.
+              Attendees should catch a{" "}
+              <strong>train from Sydney Central to Mittagong</strong>
+              on the Southern Highlands line. See{" "}
+              <a href="https://transportnsw.info/routes/details/intercity-trains/shl/76SHL">
+                timetable
+              </a>
+              .<strong>NOTE:</strong> The last train departing Central Station
+              that will get to Mittagong in time to catch the bus departs
+              Central Station at 13:53H. This train will arrive in Mittagong at
+              16:00H.
             </Paragraph>
 
             <Paragraph>
-              Attendees should catch a{" "}
-              <strong>train from Sydney Central to Mittagong</strong>. A shuttle
-              bus will depart{" "}
-              <strong>from the North side of Mittangong at TBC</strong> to take
-              everyone the rest of the way to Camp Wombaroo. See:{" "}
-              <a href="https://transportnsw.info/routes/details/intercity-trains/shl/76SHL">
-                train timetable
-              </a>
-              .
+              A shuttle bus will depart{" "}
+              <strong>from the North side of Mittangong at 17:00H</strong> to
+              take everyone the rest of the way to Camp Wombaroo. See: .
             </Paragraph>
+
             <Paragraph>
-              Please note that this is an hour later than the originally
-              scheduled. If you find yourself in Mittagong early, there are some
-              cafes, shops and pubs in which to pleasantly pass the time :)
+              If you're coming from interstate, then the best way to get to
+              Mittagong is to fly to Sydney and catch a train.
             </Paragraph>
+
             <Paragraph>
-              If attendees would like to alcoholic beverages there is a Dan
-              Murphy's in Mittagong. Just make sure you're back at the station
-              in time to meet the bus!
+              If attendees would like to purchase alcoholic beverages there is a
+              Dan Murphy's in Mittagong. Just make sure you're back at the
+              station in time to meet the bus!
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1645.0143292046296!2d150.44484392375517!3d-34.4514203964387!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b13a3a7a63f4a49%3A0xf833f02e5e23bfe9!2sDan+Murphy&#39;s+Mittagong!5e0!3m2!1sen!2sau!4v1539319573110"
                 width="600"
@@ -237,12 +242,6 @@ class Home extends PureComponent {
                 style={{ border: 0 }}
                 allowfullscreen
               />
-            </Paragraph>
-            <Paragraph>
-              Note: if you're planning on flying into Sydney, catch a train to
-              Sydney Central and make sure you{" "}
-              <strong>allow ample time for your journey</strong> by train to
-              Mittagong.
             </Paragraph>
 
             <Header2>Departing Elixir Camp on Monday 28th</Header2>
@@ -278,14 +277,14 @@ class Home extends PureComponent {
             <TalkList
               talks={[
                 {
-                  avatarImageUrl: Will,
-                  authorFullName: "Will Tan",
-                  title: "Mining cryptocurrency in Elixir and OTP 💰",
+                  avatarImageUrl: Elle,
+                  authorFullName: "Elle Meredith",
+                  title: "Start your own apprenticeship program 🎓",
                 },
                 {
-                  avatarImageUrl: Esdras,
-                  authorFullName: "Esdras Eduardo",
-                  title: "Mining cryptocurrency in Elixir and OTP 💰",
+                  avatarImageUrl: Will,
+                  authorFullName: "Will Tan & Esdras Eduardo",
+                  title: "Workshop: Mining cryptocurrency in Elixir and OTP 💰",
                 },
                 {
                   avatarImageUrl: Josh,

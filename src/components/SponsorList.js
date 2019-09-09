@@ -23,6 +23,9 @@ export default ({ className }) => (
     <a href="https://buildkite.com/">
       <img src={buildkiteLogo} />
     </a>
+    <a href="https://blackmill.co">
+      <img src={blackmillLogo} />
+    </a>
     <a href="https://lookahead.com.au">
       <img src={lookaheadLogo} />
     </a>
