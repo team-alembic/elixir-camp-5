@@ -19,10 +19,13 @@ import PrimaryFooter from "../components/PrimaryFooter"
 import MobileOnly from "../components/MobileOnly"
 import styled from "styled-components"
 import { Link } from "react-static"
-import Jeff from "../assets/jeff-avatar.png"
-import Petch from "../assets/petch_7_med.jpg"
-import Cath from "../assets/cath.jpg"
-import Brenton from "../assets/brenton.png"
+import Esdras from "../assets/esdras.jpeg"
+import Clem from "../assets/clem.png"
+import Josh from "../assets/josh.jpeg"
+import Will from "../assets/will.webp"
+import Qing from "../assets/qing.jpeg"
+import Paul from "../assets/paul.jpg"
+import James from "../assets/james.jpg"
 
 const PageWrapper = styled.div`
   padding-bottom: 150px;
@@ -272,7 +275,45 @@ class Home extends PureComponent {
 
             <Header2>Talks &amp; Education</Header2>
 
-            <TalkList talks={[]} />
+            <TalkList
+              talks={[
+                {
+                  avatarImageUrl: Will,
+                  authorFullName: "Will Tan",
+                  title: "Mining cryptocurrency in Elixir and OTP 💰",
+                },
+                {
+                  avatarImageUrl: Esdras,
+                  authorFullName: "Esdras Eduardo",
+                  title: "Mining cryptocurrency in Elixir and OTP 💰",
+                },
+                {
+                  avatarImageUrl: Josh,
+                  authorFullName: "Josh Price",
+                  title: "Building a drone ground station 📡🛩",
+                },
+                {
+                  avatarImageUrl: Clem,
+                  authorFullName: "Clementine Oldfield",
+                  title: "To be decided :)",
+                },
+                {
+                  avatarImageUrl: James,
+                  authorFullName: "James Sadler",
+                  title: "A multiplayer game with Phoenix LiveView 🔥🦅",
+                },
+                {
+                  avatarImageUrl: Paul,
+                  authorFullName: "Paul Fioravanti",
+                  title: "LiveView & I18N 🌏",
+                },
+                {
+                  avatarImageUrl: Qing,
+                  authorFullName: "Qing Wu",
+                  title: "Elixir Telemetry 🎛",
+                },
+              ]}
+            />
 
             <Header2>Organisers</Header2>
             <Organisers />
