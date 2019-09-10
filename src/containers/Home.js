@@ -208,8 +208,8 @@ class Home extends PureComponent {
 
             <Paragraph>
               Attendees should catch a{" "}
-              <strong>train from Sydney Central to Mittagong</strong>
-              on the Southern Highlands line. See{" "}
+              <strong>train from Sydney Central to Mittagong</strong> on the
+              Southern Highlands line. See{" "}
               <a href="https://transportnsw.info/routes/details/intercity-trains/shl/76SHL">
                 timetable
               </a>
@@ -225,7 +225,7 @@ class Home extends PureComponent {
 
             <Paragraph>
               A shuttle bus will depart{" "}
-              <strong>from the North side of Mittangong at 17:00H</strong> to
+              <strong>from the North side of Mittagong at 17:00H</strong> to
               take everyone the rest of the way to Camp Wombaroo. See: .
             </Paragraph>
 
