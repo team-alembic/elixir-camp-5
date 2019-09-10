@@ -219,7 +219,7 @@ class Home extends PureComponent {
               The last train that gets into Mittangong that will guarantee you
               will be there in time for the bus will leave Central station at
               13:57H and will arrive in Mittangong at 16:00H. That will also
-              leabve you with ample time to pick up some snacks and beverages in
+              leave you with ample time to pick up some snacks and beverages in
               Mittangong before the bus departs at 17:00H.
             </Paragraph>
 
