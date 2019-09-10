@@ -213,10 +213,14 @@ class Home extends PureComponent {
               <a href="https://transportnsw.info/routes/details/intercity-trains/shl/76SHL">
                 timetable
               </a>
-              .<strong>NOTE:</strong> The last train departing Central Station
-              that will get to Mittagong in time to catch the bus departs
-              Central Station at 13:53H. This train will arrive in Mittagong at
-              16:00H.
+            </Paragraph>
+
+            <Paragraph>
+              The last train that gets into Mittangong that will guarantee you
+              will be there in time for the bus will leave Central station at
+              13:57H and will arrive in Mittangong at 16:00H. That will also
+              leabve you with ample time to pick up some snacks and beverages in
+              Mittangong before the bus departs at 17:00H.
             </Paragraph>
 
             <Paragraph>
@@ -227,7 +231,8 @@ class Home extends PureComponent {
 
             <Paragraph>
               If you're coming from interstate, then the best way to get to
-              Mittagong is to fly to Sydney and catch a train.
+              Mittagong is to fly to Sydney and catch a train from Central (see
+              above)/
             </Paragraph>
 
             <Paragraph>
