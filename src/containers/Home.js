@@ -27,6 +27,7 @@ import Qing from "../assets/qing.jpeg"
 import Paul from "../assets/paul.jpg"
 import James from "../assets/james.jpg"
 import Elle from "../assets/elle.png"
+import Lachlan from "../assets/lachlan.png"
 
 const PageWrapper = styled.div`
   padding-bottom: 150px;
@@ -317,7 +318,7 @@ class Home extends PureComponent {
                   title: "Elixir Telemetry 🎛",
                 },
                 {
-                  avatarImageUrl: Elle,
+                  avatarImageUrl: Lachlan,
                   authorFullName: "Elle Meredith & Lachlan Hardy",
                   title: "Workshop: wood-fired pizza making masterclass 🍕",
                 },
