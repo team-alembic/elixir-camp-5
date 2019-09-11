@@ -316,6 +316,11 @@ class Home extends PureComponent {
                   authorFullName: "Qing Wu",
                   title: "Elixir Telemetry 🎛",
                 },
+                {
+                  avatarImageUrl: Elle,
+                  authorFullName: "Elle Meredith & Lachlan Hardy",
+                  title: "Workshop: wood-fired pizza making masterclass 🍕",
+                },
               ]}
             />
 
