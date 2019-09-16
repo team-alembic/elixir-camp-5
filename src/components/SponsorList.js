@@ -29,6 +29,9 @@ export default ({ className }) => (
     <a href="https://lookahead.com.au">
       <img src={lookaheadLogo} />
     </a>
+    <a href="https://expert360.com">
+      <img src={expert360Logo} />
+    </a>
     <a href="https://alembic.com.au">
       <img src={alembicLogo} />
     </a>
