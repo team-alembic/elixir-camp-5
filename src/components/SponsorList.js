@@ -4,7 +4,7 @@ import UnorderedList from "./UnorderedList"
 import buildkiteLogo from "../assets/buildkite-logo-on-light-d83a7b7d.svg"
 import alembicLogo from "../assets/alembic-logo-horizontal.svg"
 import expert360Logo from "../assets/expert360_logo.svg"
-import blackmillLogo from "../assets/blackmill-logo.svg"
+import blackmillLogo from "../assets/blackmill-logo-black.svg"
 import lookaheadLogo from "../assets/lookahead-logo.png"
 import manningLogo from "../assets/Manninglogo_outline.png"
 import Header2 from "../components/Header2"
@@ -14,6 +14,9 @@ const Sponsors = styled.div`
     display: block;
     margin-top: 20px;
     text-align: center;
+    img {
+      width: 100%;
+    }
   }
 `
 
