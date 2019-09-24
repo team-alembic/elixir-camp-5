@@ -6,6 +6,7 @@ import alembicLogo from "../assets/alembic-logo-horizontal.svg"
 import expert360Logo from "../assets/expert360_logo.svg"
 import blackmillLogo from "../assets/blackmill-logo-black.svg"
 import lookaheadLogo from "../assets/lookahead-logo.png"
+import cultureAmpLogo from "../assets/culture-amp-logo.png"
 import manningLogo from "../assets/Manninglogo_outline.png"
 import Header2 from "../components/Header2"
 
@@ -36,7 +37,16 @@ export default ({ className }) => (
       <img src={expert360Logo} />
     </a>
     <a href="https://alembic.com.au">
-      <img src={alembicLogo} />
+      <img
+        src={alembicLogo}
+        style={{ transform: "scale(1.1)", marginTop: "-20px" }}
+      />
+    </a>
+    <a href="https://cultureamp.com">
+      <img
+        src={cultureAmpLogo}
+        style={{ transform: "scale(1.1)", marginTop: "-20px" }}
+      />
     </a>
   </Sponsors>
 )
