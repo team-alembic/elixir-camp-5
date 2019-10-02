@@ -28,6 +28,7 @@ import Paul from "../assets/paul.jpg"
 import James from "../assets/james.jpg"
 import Elle from "../assets/elle.png"
 import Lachlan from "../assets/lachlan.png"
+import Fiona from "../assets/fiona.jpeg"
 
 const PageWrapper = styled.div`
   padding-bottom: 150px;
@@ -282,6 +283,11 @@ class Home extends PureComponent {
 
             <TalkList
               talks={[
+                {
+                  avatarImageUrl: Fiona,
+                  authorFullName: "Fiona McCawley",
+                  title: "Getting embedded with Nerves 🧠",
+                },
                 {
                   avatarImageUrl: Elle,
                   authorFullName: "Elle Meredith",
