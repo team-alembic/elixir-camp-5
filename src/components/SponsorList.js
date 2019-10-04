@@ -7,7 +7,7 @@ import expert360Logo from "../assets/expert360_logo.svg"
 import blackmillLogo from "../assets/blackmill-logo-black.svg"
 import lookaheadLogo from "../assets/lookahead-logo.png"
 import cultureAmpLogo from "../assets/culture-amp-logo.png"
-import manningLogo from "../assets/Manninglogo_outline.png"
+import redbubbleLogo from "../assets/red-bubble-logo.svg"
 import Header2 from "../components/Header2"
 
 const Sponsors = styled.div`
@@ -47,6 +47,9 @@ export default ({ className }) => (
         src={cultureAmpLogo}
         style={{ transform: "scale(1.1)", marginTop: "-20px" }}
       />
+    </a>
+    <a href="https://www.redbubble.com">
+      <img src={redbubbleLogo} />
     </a>
   </Sponsors>
 )
