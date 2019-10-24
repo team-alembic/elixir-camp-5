@@ -190,7 +190,7 @@ class Home extends PureComponent {
 
             <UnorderedList>
               <li>A sleeping bag or the like</li>
-              <li>A pillow case</li>
+              <li>A pillow &amp; pillow case</li>
               <li>A towel (or two)</li>
               <li>Clothes for mild to cool weather</li>
               <li>Computer gear and chargers</li>
